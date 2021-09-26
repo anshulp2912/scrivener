@@ -6,9 +6,6 @@
 
 # SCRIVENER 
 
-### YouTube Link: 
-
-[![Video](https://i9.ytimg.com/vi_webp/zvme9ARshD8/mqdefault.webp?sqp=CJTzs_sF&rs=AOn4CLBkjs-_C1oPtVtZgfWL2llzZA_dKw)](https://youtu.be/VLoJCemCdHg)
 
 [![DOI](https://zenodo.org/badge/295188611.svg)](https://zenodo.org/badge/latestdoi/295188611)
 
@@ -18,7 +15,7 @@
 
 ## INTRODUCTION
 
-Scrivener is a video transcript summarizer for Youtube videos. Youtube is one of the most used website. A lot of people use the captions to understand the language of the video. In our project we aim to create a transcript summarizer which accepts a youtube URL link, collects the caption at every sentence and then provides the summary of the complete video. Our goal is to make the summarizer as accurate as possible and to add various other features such as a chrome extension which can be applied to the youtube website itself. Our project can be further expanded numerous applications. This document provides a major perspective for the users to understand and take up the project as an Open source software and add on multiple featurest. Also, the document aids the developers in understanding the code and acts as a reference point for starting the project.
+Scrivener is a video transcript summarizer for Youtube videos. Youtube is one of the most used website. A lot of people use the captions to understand the language of the video. In our project we aim to create a transcript summarizer which accepts a youtube URL link, collects the caption at every sentence and then provides the summary of the complete video. Our goal is to make the summarizer as accurate as possible and to add various other features. Our second goal of the project is to create a summarizer which can summarize the youtube videos which have captions disabled. Our project can be further expanded for numerous applications. This document provides a major perspective for the users to understand and take up the project as an Open source software and add on multiple features. Also, the document aids the developers in understanding the code and acts as a reference point for starting the project.
 
 The complete development was achieved using the following technologies and it is recommended that the next set of developers who take up this project have these technologies installed and keep them running before proceeding further:
 Python3
@@ -43,8 +40,6 @@ Although we have used HTML and CSS for the FrontEnd, the users can merge the bac
 
 ## FUTURE SCOPE
 
-Summarization of youtube videos without captions (Speech-to-text recognition)
-
 Summarization of any video without captions.
 
 Auto summary as a video.
@@ -56,6 +51,8 @@ Summarization of Podcasts (audiofiles).
 Summarization as a audio.
 
 Summarization of audios for particular time frames.
+
+Adding Chrome extension.
 
 ## Team Members
 
