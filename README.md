@@ -38,52 +38,24 @@ Although we have used HTML and CSS for the FrontEnd, the users can merge the bac
 4. Next, open your browser and type in `localhost:8000` in the search bar to open the webUI of the application.
 5. The UI typically looks as shown below and here you have a choice between URL, file or normal text input.
 
-![First](https://user-images.githubusercontent.com/43075652/97276268-31ce6100-17f4-11eb-8b57-7741069bf311.png)
-![second](https://user-images.githubusercontent.com/43075652/97276507-82de5500-17f4-11eb-88e0-0ea41bc9b424.png)
-
-The UI for URL input is as shown below:
-![product](https://user-images.githubusercontent.com/43075652/97276542-925d9e00-17f4-11eb-910f-103be084ad13.png)
-
-The UI for file input is as shown below:
-![docum](https://user-images.githubusercontent.com/43075652/97277008-2891c400-17f5-11eb-901a-1ebd3da5a32b.png)
-
-The UI for text input is as shown below:
-![text](https://user-images.githubusercontent.com/43075652/97277038-33e4ef80-17f5-11eb-8fbc-76bad26adcc9.png)
-
-The UI for audio input is as shown below:
-![audio](https://user-images.githubusercontent.com/43075652/97277059-3d6e5780-17f5-11eb-8dcf-a5935d6613ae.png)
-
-The Output as below:
-![output](https://user-images.githubusercontent.com/43075652/97277225-74446d80-17f5-11eb-89f5-2b27c957827e.png)
-![out](https://user-images.githubusercontent.com/43075652/97277310-8e7e4b80-17f5-11eb-8910-03ec42ea0ff7.png)
-
-## Case Study: Amazon Product Review Sentiment and Text Analysis
-
-### WordCloud of Reviews
-![wc](https://user-images.githubusercontent.com/9015214/97310439-9e1f8380-1839-11eb-8060-0944d7e4d7d9.png)
-
-### Reviews Summary
-<img width="896" alt="Screen Shot 2020-10-27 at 9 49 08 AM" src="https://user-images.githubusercontent.com/9015214/97310491-aaa3dc00-1839-11eb-97ef-e2e27fd6fad2.png">
-
-### Sentiment Summary
-<img width="864" alt="Screen Shot 2020-10-27 at 9 48 02 AM" src="https://user-images.githubusercontent.com/9015214/97310362-834d0f00-1839-11eb-97db-f32a3d1f9eed.png">
-
-### Confusion Matrix
-![conf](https://user-images.githubusercontent.com/9015214/97310260-631d5000-1839-11eb-9a3b-102fa9737439.png)
 
 
 
 ## FUTURE SCOPE
 
-Implement user authentication to store history for each user.
+Summarization of youtube videos without captions (Speech-to-text recognition)
 
-Recommendation system based on analysis results.
+Summarization of any video without captions.
 
-Live speech to text sentiment analysis.
+Auto summary as a video.
 
-Enhance the analysis by taking into consideration the number of users rated for each product!
+Summarization of videos for particular time frames.
 
-Extend the analysis to the Facebook, Twitter and LinkedIn Posts
+Summarization of Podcasts (audiofiles).
+
+Summarization as a audio.
+
+Summarization of audios for particular time frames.
 
 ## Team Members
 
