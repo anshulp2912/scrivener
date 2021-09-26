@@ -2,10 +2,9 @@
  <img src="https://github.com/anshulp2912/scrivener/blob/main/media/logo/logo.gif" />
 </h1>
 
-# scrivener
 # SE Project 1
 
-# C.E.L.T: The Sentimental Analyser 
+# SCRIVENER 
 
 ### YouTube Link: 
 
@@ -19,7 +18,7 @@
 
 ## INTRODUCTION
 
-Sentiment analysis is one of the fastest growing research areas in computer science, making it challenging to keep track of all the activities in the area. In our project we aim to achieve our goal in accurately predicting a users sentiment by analysing the data provided in any of the four different methods. They are Document Analysis, Text Analysis, Product Analysis and Audio Analysis. This project though currently in the initial stages of development, can be further applied to numerous domains which can be useful for the society. This document provides a major perspective for the users to understand and take up the project as an Open source software and add on multiple features before releasing to the market. Also, the document aids the developers in understanding the code and acts as a reference point for starting the project.
+Scrivener is a video transcript summarizer for Youtube videos. Youtube is one of the most used website. A lot of people use the captions to understand the language of the video. In our project we aim to create a transcript summarizer which accepts a youtube URL link, collects the caption at every sentence and then provides the summary of the complete video. Our goal is to make the summarizer as accurate as possible and to add various other features such as a chrome extension which can be applied to the youtube website itself. Our project can be further expanded numerous applications. This document provides a major perspective for the users to understand and take up the project as an Open source software and add on multiple featurest. Also, the document aids the developers in understanding the code and acts as a reference point for starting the project.
 
 The complete development was achieved using the following technologies and it is recommended that the next set of developers who take up this project have these technologies installed and keep them running before proceeding further:
 Python3
@@ -88,13 +87,13 @@ Extend the analysis to the Facebook, Twitter and LinkedIn Posts
 
 ## Team Members
 
-Matt Pudlo
+Anshul Patel
 
-Prasanth Yadla
+Bhavya Omprakash Agrawal
 
-Abhi Joshi
+Darshan Patel
 
-Mita Gavade
+Pragna Bollam
 
-Suyash Jain
+Rohan Shah
 				
