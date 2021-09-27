@@ -17,6 +17,10 @@
 
 Scrivener is a video transcript summarizer for Youtube videos. Youtube is one of the most used website. A lot of people use the captions to understand the language of the video. In our project we aim to create a transcript summarizer which accepts a youtube URL link, collects the caption at every sentence and then provides the summary of the complete video. Our goal is to make the summarizer as accurate as possible and to add various other features. Our second goal of the project is to create a summarizer which can summarize the youtube videos which have captions disabled. Our project can be further expanded for numerous applications. This document provides a major perspective for the users to understand and take up the project as an Open source software and add on multiple features. Also, the document aids the developers in understanding the code and acts as a reference point for starting the project.
 
+<h1 align="center">
+ <img src="https://github.com/anshulp2912/scrivener/blob/main/media/working_animation/scrivener_working.gif" />
+</h1>
+
 The complete development was achieved using the following technologies and it is recommended that the next set of developers who take up this project have these technologies installed and keep them running before proceeding further:
 Python3
 Django
