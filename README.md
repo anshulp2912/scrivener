@@ -2,16 +2,13 @@
  <img src="https://github.com/anshulp2912/scrivener/blob/main/media/logo/logo.gif" />
 </h1>
 
-# SE Project 1
-
 # SCRIVENER 
 
-
-[![DOI](https://zenodo.org/badge/295188611.svg)](https://zenodo.org/badge/latestdoi/295188611)
-
-[![Build Status](https://travis-ci.org/bsharathramesh/SE_Project1.svg?branch=master)](https://travis-ci.org/bsharathramesh/SE_Project1)
-
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
+[![GitHub issues](https://img.shields.io/github/issues/anshulp2912/scrivener)](https://github.com/anshulp2912/scrivener/issues)
+[![GitHub forks](https://img.shields.io/github/forks/anshulp2912/scrivener)](https://github.com/anshulp2912/scrivener/network)
+[![DOI](https://zenodo.org/badge/409326011.svg)](https://zenodo.org/badge/latestdoi/409326011)
+[![GitHub license](https://img.shields.io/github/license/anshulp2912/scrivener)](https://github.com/anshulp2912/scrivener/blob/main/LICENSE)
 
 ## INTRODUCTION
 
