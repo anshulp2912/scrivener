@@ -41,19 +41,27 @@ Although we have used HTML and CSS for the FrontEnd, the users can merge the bac
 
 ## FUTURE SCOPE
 
-Summarization of any video without captions.
+Support multiple extensions of video file.
+
+Summarization of multiple languages.
+
+Summarization of Podcasts (audiofiles).
 
 Auto summary as a video.
 
 Summarization of videos for particular time frames.
 
-Summarization of Podcasts (audiofiles).
+Compare Summarization models.
+
+Improve UI.
 
 Summarization as a audio.
 
 Summarization of audios for particular time frames.
 
 Adding Chrome extension.
+
+Sentiment Analysis of the summary.
 
 ## Team Members
 
