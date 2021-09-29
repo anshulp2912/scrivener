@@ -66,18 +66,17 @@ but nevertheless, here is a track record that everyone is contributing a lot)|3|
 |Building and installing your software: Do you provide publicly-available instructions for deploying your software?  |3||
 |Building and installing your software:Does your documentation list all third-party dependencies? |3 | |
 |Building and installing your software:Does your documentation list the version number for all third-party dependencies? | 3| |
-|Building and installing your software: Do you have tests that can be run after your software has been built or deployed to show whether the build or deployment has been successful? | | |
-|Test your software: Do you have an automated test suite for your software? | | |
-|Test your software: Do you have a framework to periodically (e.g. nightly) run your tests on the latest version of the source code?| | |
-|Test your software: Do you use continuous integration, automatically running tests whenever changes are made to your source code? |||
-|Test your software: Are your test results publicly visible?|||
-|Test your software: Are all manually-run tests documented?|||
-|Engage with your community: Does your project have resources (e.g. blog, Twitter, RSS feed, Facebook page, wiki, mailing list) that are regularly updated with information about your software?|||
-|Engage with your community: Does your website state how many projects and users are associated with your project?|||
-|Engage with your community: Do you provide success stories on your website? |||
-|Engage with your community: Do you list your important partners and collaborators on your website?|||
-|Engage with your community: Do you list your project's publications on your website or link to a resource where these are available?|||
-|Engage with your community: Do you list third-party publications that refer to your software on your website or link to a resource where these are available? |||
+|Building and installing your software: Do you have tests that can be run after your software has been built or deployed to show whether the build or deployment has been successful? |3 | Evidence in Test |
+|Test your software: Do you have an automated test suite for your software? |3 | |
+|Test your software: Do you have a framework to periodically (e.g. nightly) run your tests on the latest version of the source code?|3 | |
+|Test your software: Do you use continuous integration, automatically running tests whenever changes are made to your source code? |3||
+|Test your software: Are your test results publicly visible?|3||
+|Test your software: Are all manually-run tests documented?|3||
+|Engage with your community: Does your website state how many projects and users are associated with your project?|3||
+|Engage with your community: Do you provide success stories on your website? |3||
+|Engage with your community: Do you list your important partners and collaborators on your website?|3||
+|Engage with your community: Do you list your project's publications on your website or link to a resource where these are available?|3||
+|Engage with your community: Do you list third-party publications that refer to your software on your website or link to a resource where these are available? |3||
 |Engage with your community: Can users subscribe to notifications to changes to your source code repository?|3||
 |Engage with your community: If your software is developed as an open source project (and, not just a project developing open source software), do you have a governance model?|3||
 |Manage contributions: Do you accept contributions (e.g. bug fixes, enhancements, documentation updates, tutorials) from people who are not part of your project?|3||
