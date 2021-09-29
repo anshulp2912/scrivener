@@ -2,14 +2,14 @@
 
 | Notes|Self Assessment  zero (none), one (a litte), two (somewhat), three (a lot)| Evidence|
 |-----|--------|---------|
-|workload is spread over the whole team (one team member is often Xtimes more productive than the others... 
-but nevertheless, here is a track record that everyone is contributing a lot)|3|evidence  in GH|
-| Number of commits|3|in GH|
-| Number of commits: by different people|3|in GH|
-| Issues reports: there are **many**| | |
-|  issues are being  closed| |evidence in GH|
-| DOI badge: exists | |in GH|
-|Docs: doco generated , format not ugly | |in GH|
+|workload is spread over the whole team (one team member is often Xtimes more productive than the others... |3| Evidence in [Road Map](https://github.com/anshulp2912/scrivener/projects)|
+but nevertheless, here is a track record that everyone is contributing a lot)|3|Evidence in [Road Map](https://github.com/anshulp2912/scrivener/projects)|
+| Number of commits|3|Evidence in [Github](https://github.com/anshulp2912/scrivener)|
+| Number of commits: by different people|3|Evidence in [Github](https://github.com/anshulp2912/scrivener)|
+| Issues reports: there are **many**|3| Evidence in [Road Map](https://github.com/anshulp2912/scrivener/projects)|
+|  Issues are being  closed|3| Evidence in [Road Map](https://github.com/anshulp2912/scrivener/projects)|
+| DOI badge: exists |3|Evidence in [Github](https://github.com/anshulp2912/scrivener)|
+|Docs: doco generated , format not ugly |3|Evidence in [Github](https://github.com/anshulp2912/scrivener)|
 |Docs: what: point descriptions of each class/function (in isolation) | | |
 |Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z| |doc page entries|
 |Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing| | |
