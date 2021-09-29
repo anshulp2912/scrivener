@@ -31,48 +31,41 @@ but nevertheless, here is a track record that everyone is contributing a lot)|3|
 | evidence that the whole team is using the same tools (e.g. tutor can ask anyone to share screen, they demonstrate the system running on their computer)| | |
 | evidence that the members of the team are working across multiple places in the code base| | |
 |short release cycles |  |(hard to see in short projects) project members are committing often enough so that everyone can get your work|
-|Software: Does your website and documentation provide a clear, high-level overview of your software?| | |
-|Software: Does your website and documentation clearly describe the type of user who should use your software?| | |
-|Software: Do you publish case studies to show how your software has been used by yourself and others?| | |
-|Project's and software's identity: Is the name of your project/software unique?|||
-|Project's and software's identity: Is your project/software name free from trademark violations?| | |
-|Availability of your software: Is your software available as a package that can be deployed without building it?| ||
-|Availability of your software:Is your software available for free?| | |
-|Availability of your software: Is your source code publicly available to download, either as a downloadable bundle or via access to a source code repository?| | |
-|Availability of your software: Is your software hosted in an established, third-party repository likeGitHub (https://github.com), BitBucket (https://bitbucket.org),LaunchPad (https://launchpad.net) orSourceForge (https://sourceforge.net)? | | |
-|software's documentation: Is your documentation clearly available on your website or within your software? | | |
-|software's documentation: Does your documentation include a "quick start" guide, that provides a short overview of how to use your software with some basic examples of use?| | |
-|software's documentation: If you provide more extensive documentation, does this provide clear, step-by-step instructions on how to deploy and use your software?| | |
-|software's documentation: Do you provide a comprehensive guide to all your software’s commands, functions and options? | | |
-|software's documentation: Do you provide troubleshooting information that describes the symptoms and step-by-step solutions for problems and error messages? | | |
-|software's documentation: If your software can be used as a library, package or service by other software, do you provide comprehensive API documentation?|||
-|software's documentation: Do you store your documentation under revision control with your source code?|||
-|software's documentation: Do you publish your release history e.g. release data, version numbers, key features of each release etc. on your web site or in your documentation?|||
-|Support your software: Does your software describe how a user can get help with using your software? | | |
-|Support your software: Does your website and documentation describe what support, if any, you provide to users and developers?| | |
-|Support your software: Does your project have an e-mail address or forum that is solely for supporting users?| | |
-|Support your software: Are e-mails to your support e-mail address received by more than one person? | | |
-|Support your software: Does your project have a ticketing system to manage bug reports and feature requests?| | |
-|Support your software: Is your project's ticketing system publicly visible to your users, so they can view bug reports and feature requests?| | |
-|software's maintainability: Is your software’s architecture and design modular?| | |
-|software's maintainability: Does your software use an accepted coding standard or convention? | | |
-|Open standards and your software: Does your software allow data to be imported and exported using open data formats?| | |
-|Open standards and your software: Does your software allow communications using open communications protocols?| | |
-|Software's portability: Is your software cross-platform compatible?| | |
-|Software and accessibility: Does your software adhere to appropriate accessibility conventions or standards?| | |
-|Software and accessibility: Does your documentation adhere to appropriate accessibility conventions or standards?| | |
-|Manage source code: Is your source code stored in a repository under revision control? | | |
-|Manage source code: Is each source code release a snapshot of the repository? | | |
-|Manage source code: Are releases tagged in the repository? | | |
-|Manage source code:Is there a branch of the repository that is always stable? (i.e. tests always pass, code always builds successfully) | | |
-|Manage source code:Do you back-up your repository? | | |
-|Building and installing your software: Do you provide publicly-available instructions for building your software from the source code? | | |
-|Building and installing your software: Can you build, or package, your software using an automated tool?| | |
-|Building and installing your software: Do you provide publicly-available instructions for deploying your software?  |||
-|Building and installing your software:Does your documentation list all third-party dependencies? | | |
-|Building and installing your software:Does your documentation list the version number for all third-party dependencies? | | |
-|Building and installing your software:Does your software list the web address, and licences for all third-party dependencies and say whether the dependencies are mandatory or optional? | || 
-|Building and installing your software:Can you download dependencies using a dependency management tool or package manager? | | |
+|Software: Does your website and documentation provide a clear, high-level overview of your software?|3 | |
+|Software: Does your website and documentation clearly describe the type of user who should use your software?| 3| |
+|Software: Do you publish case studies to show how your software has been used by yourself and others?|3 | |
+|Project's and software's identity: Is the name of your project/software unique?|3||
+|Project's and software's identity: Is your project/software name free from trademark violations?| 3| |
+|Availability of your software: Is your software available as a package that can be deployed without building it?|3 ||
+|Availability of your software:Is your software available for free?|3 | |
+|Availability of your software: Is your source code publicly available to download, either as a downloadable bundle or via access to a source code repository?|3 | |
+|Availability of your software: Is your software hosted in an established, third-party repository likeGitHub (https://github.com), BitBucket (https://bitbucket.org),LaunchPad (https://launchpad.net) orSourceForge (https://sourceforge.net)? |3 | |
+|software's documentation: Is your documentation clearly available on your website or within your software? |3 | |
+|software's documentation: Does your documentation include a "quick start" guide, that provides a short overview of how to use your software with some basic examples of use?| 3| |
+|software's documentation: If you provide more extensive documentation, does this provide clear, step-by-step instructions on how to deploy and use your software?|3 | |
+|software's documentation: Do you provide a comprehensive guide to all your software’s commands, functions and options? | 3| |
+|software's documentation: Do you provide troubleshooting information that describes the symptoms and step-by-step solutions for problems and error messages? |3 | |
+|software's documentation: Do you store your documentation under revision control with your source code?|3||
+|software's documentation: Do you publish your release history e.g. release data, version numbers, key features of each release etc. on your web site or in your documentation?|3||
+|Support your software: Does your software describe how a user can get help with using your software? | 3| |
+|Support your software: Does your website and documentation describe what support, if any, you provide to users and developers?|3 | |
+|Support your software: Does your project have an e-mail address or forum that is solely for supporting users?|3 | |
+|Support your software: Are e-mails to your support e-mail address received by more than one person? |3 | |
+|software's maintainability: Is your software’s architecture and design modular?| 3| |
+|software's maintainability: Does your software use an accepted coding standard or convention? |3 | |
+|Open standards and your software: Does your software allow data to be imported and exported using open data formats?|3 | |
+|Open standards and your software: Does your software allow communications using open communications protocols?|3 | |
+|Software's portability: Is your software cross-platform compatible?|3 | |
+|Software and accessibility: Does your software adhere to appropriate accessibility conventions or standards?|3 | |
+|Software and accessibility: Does your documentation adhere to appropriate accessibility conventions or standards?|3 | |
+|Manage source code: Is your source code stored in a repository under revision control? |3 | |
+|Manage source code: Are releases tagged in the repository? |3 | |
+|Manage source code:Is there a branch of the repository that is always stable? (i.e. tests always pass, code always builds successfully) | 3| |
+|Manage source code:Do you back-up your repository? |3 | |
+|Building and installing your software: Do you provide publicly-available instructions for building your software from the source code? |3 | |
+|Building and installing your software: Do you provide publicly-available instructions for deploying your software?  |3||
+|Building and installing your software:Does your documentation list all third-party dependencies? |3 | |
+|Building and installing your software:Does your documentation list the version number for all third-party dependencies? | 3| |
 |Building and installing your software: Do you have tests that can be run after your software has been built or deployed to show whether the build or deployment has been successful? | | |
 |Test your software: Do you have an automated test suite for your software? | | |
 |Test your software: Do you have a framework to periodically (e.g. nightly) run your tests on the latest version of the source code?| | |
@@ -85,19 +78,18 @@ but nevertheless, here is a track record that everyone is contributing a lot)|3|
 |Engage with your community: Do you list your important partners and collaborators on your website?|||
 |Engage with your community: Do you list your project's publications on your website or link to a resource where these are available?|||
 |Engage with your community: Do you list third-party publications that refer to your software on your website or link to a resource where these are available? |||
-|Engage with your community: Can users subscribe to notifications to changes to your source code repository?|||
-|Engage with your community: If your software is developed as an open source project (and, not just a project developing open source software), do you have a governance model?|||
-|Manage contributions: Do you accept contributions (e.g. bug fixes, enhancements, documentation updates, tutorials) from people who are not part of your project?|||
-|Manage contributions: Do you have a contributions policy?|||
-|Manage contributions: Is your contributions' policy publicly available?|||
-|Manage contributions: Do contributors keep the copyright/IP of their contributions?|||
-|Software's copyright and licensing: Does your website and documentation clearly state the copyright owners of your software and documentation? |||
-|Software's copyright and licensing: Does each of your source code files include a copyright statement? |||
-|Software's copyright and licensing: Does your website and documentation clearly state the licence of your software? |||
-|Software's copyright and licensing: Is your software released under an open source licence?|||
-|Software's copyright and licensing: Is your software released under an OSI-approved open-source licence? |||
-|Software's copyright and licensing: Does each of your source code files include a licence header?|||
-|Software's copyright and licensing: Do you have a recommended citation for your software?|||
-|Plans for the future: Does your website or documentation include a project roadmap (a list of project and development milestones for the next 3, 6 and 12 months)? |||
-|Plans for the future:Does your website or documentation describe how your project is funded, and the period over which funding is guaranteed?|||
- |Plans for the future: Do you make timely announcements of the deprecation of components, APIs, etc.? |||
+|Engage with your community: Can users subscribe to notifications to changes to your source code repository?|3||
+|Engage with your community: If your software is developed as an open source project (and, not just a project developing open source software), do you have a governance model?|3||
+|Manage contributions: Do you accept contributions (e.g. bug fixes, enhancements, documentation updates, tutorials) from people who are not part of your project?|3||
+|Manage contributions: Do you have a contributions policy?|3||
+|Manage contributions: Is your contributions' policy publicly available?|3||
+|Manage contributions: Do contributors keep the copyright/IP of their contributions?|3||
+|Software's copyright and licensing: Does your website and documentation clearly state the copyright owners of your software and documentation? |3||
+|Software's copyright and licensing: Does each of your source code files include a copyright statement? |3||
+|Software's copyright and licensing: Does your website and documentation clearly state the licence of your software? |3||
+|Software's copyright and licensing: Is your software released under an open source licence?|3||
+|Software's copyright and licensing: Is your software released under an OSI-approved open-source licence? |3||
+|Software's copyright and licensing: Does each of your source code files include a licence header?|3||
+|Software's copyright and licensing: Do you have a recommended citation for your software?|3||
+|Plans for the future: Does your website or documentation include a project roadmap (a list of project and development milestones for the next 3, 6 and 12 months)? |3|Evidence in [Road Map](https://github.com/anshulp2912/scrivener/projects)|
+ |Plans for the future: Do you make timely announcements of the deprecation of components, APIs, etc.? |3||
