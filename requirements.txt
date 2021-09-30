@@ -15,7 +15,6 @@ cachetools==4.2.2
 certifi==2021.5.30
 clang==5.0
 click==7.1.2
-dataclasses==0.8
 decorator==4.4.2
 docopt==0.6.2
 entrypoints==0.3
@@ -59,7 +58,6 @@ Pillow==8.3.2
 proglog==0.1.9
 prometheus-client==0.11.0
 protobuf==3.18.0
-psutil @ file:///C:/ci/psutil_1612298125479/work
 pyarrow==5.0.0
 pyasn1==0.4.8
 pyasn1-modules==0.2.8
