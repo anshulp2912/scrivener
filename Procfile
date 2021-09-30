@@ -1,0 +1,1 @@
+web: sh setup.sh && streamlit run source/scrivener_user_interface.py
