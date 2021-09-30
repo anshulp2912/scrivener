@@ -13,6 +13,7 @@ from helper.split_audio import splitwavaudio
 import os
 from helper.cleanup import Cleanup
 
+
 class TranscribeVideo:
 
     """
@@ -43,11 +44,11 @@ class TranscribeVideo:
         #Read video input
         video = mp.VideoFileClip(ip_path)
         #Check if temp directory available
-        if not os.path.exists(os.getcwd()+"\\temp"):
+        if not os.path.exists(os.getcwd()+"/temp"):
             #Create temp directory
             os.mkdir('temp')
         #Generate audio file for the input video
-        video.audio.write_audiofile(os.getcwd() + '\\temp\\temp_audio.wav')
+        video.audio.write_audiofile(os.getcwd() + '/temp/temp_audio.wav')
         #Call split_init to generate small chunks of audio files
         num_of_files = self.split_init()
         transcript_text = ''
@@ -56,7 +57,7 @@ class TranscribeVideo:
         for i in range(num_of_files):
             recognizer = sr.Recognizer()
             #Read single audio file chunk
-            audio = sr.AudioFile("temp\\"+str(i*2) +"_temp_audio.wav")
+            audio = sr.AudioFile("temp/"+str(i*2) +"_temp_audio.wav")
             #Get audio data
             with audio as src:
                 audio_data = recognizer.record(src)
@@ -81,7 +82,7 @@ class TranscribeVideo:
         Split audio file into multiple small chunks
         """
         #Get current working directory
-        folder = os.getcwd() + "\\" + 'temp'
+        folder = os.getcwd() + "/" + 'temp'
         file = 'temp_audio.wav'
         #Call the script to split audio files into smaller files
         split_wav = splitwavaudio(folder, file)

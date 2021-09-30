@@ -106,11 +106,12 @@ class TranscribeYtVideo:
         # Download the youtube video
         youtube = pytube.YouTube(self.youtube_url)
         dwnld_video = youtube.streams.get_lowest_resolution()
-        if not os.path.exists(os.getcwd()+"\\temp"):
+        #Check if temp directory available
+        if not os.path.exists(os.getcwd()+"/temp"):
             #Create temp directory
             os.mkdir('temp')
-        dwnld_video.download(filename='temp.mp4',output_path=os.getcwd()+'\\temp')
+        dwnld_video.download(filename='temp.mp4',output_path=os.getcwd())
         # Get transcript of videos without caption
         transcribed_video = TranscribeVideo()
         # Call the summarization script
-        self.summary = transcribed_video.transcribe_video(os.path.join(os.getcwd()+'\\temp', 'temp.mp4'))
+        self.summary = transcribed_video.transcribe_video(os.path.join(os.getcwd(), 'temp.mp4'))

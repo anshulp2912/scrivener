@@ -27,6 +27,6 @@ class Cleanup:
         summary.
         """
         try:
-            shutil.rmtree(os.getcwd() + "\\" + 'temp')
+            shutil.rmtree(os.getcwd() + "/" + 'temp')
         except OSError as e:
             print(e.strerror)
