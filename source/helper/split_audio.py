@@ -61,6 +61,8 @@ class splitwavaudio():
             start time of audio file
         to_min: float
             end time of audio file
+        split_filename: string
+            file name for temporary audio file
         """
         # t1 - start time in milliseconds
         # t2 - end time in milliseconds
