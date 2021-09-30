@@ -1,6 +1,6 @@
-# HELLO!! WELCOME TO CONTRIBUTING TO CALCULATOR :)
+# HELLO!! WELCOME TO CONTRIBUTING TO SCRIVENER :)
 ## Thanks for being here and taking your time to contribute.  <br>
-The following is a set of guidelines for contributing to "Calculator" and its packages, which are hosted in the [SE_Fall2021_G13_HW2b](https://github.com/anshulp2912/SE_Fall2021_G13_HW2b) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request. <br>
+The following is a set of guidelines for contributing to "SCRIVENER" and its packages, which are hosted in the [Scrivener](https://github.com/anshulp2912/scrivener) on GitHub. These are mostly guidelines, not rules. Use your best judgment, and feel free to propose changes to this document in a pull request. <br>
 
 ## Table of Contents
 [Code of Conduct](https://github.com/anshulp2912/SE_Fall2021_G13_HW2b/blob/main/CODE_OF_CONDUCT.md) <br>
@@ -161,4 +161,3 @@ While the prerequisites above must be satisfied prior to having your pull reques
 
 ## References
 [Contributing.md](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#specs-styleguide)
-
