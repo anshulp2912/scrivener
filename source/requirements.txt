@@ -1,0 +1,7 @@
+moviepy==1.0.3
+pydub==0.25.1
+transformers==4.11.0
+youtube_transcript_api==0.4.1
+pytube==11.0.1
+SpeechRecognition==3.8.1
+streamlit==0.89.0
