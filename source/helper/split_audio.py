@@ -19,3 +19,13 @@ class splitwavaudio():
         split_audio = self.audio[t1:t2]
         split_audio.export(self.folder + '\\' + split_filename, format="wav")
         
+    def get_duration(self):
+        return self.audio.duration_seconds
+    
+    def multiple_split(self, min_per_split):
+        total_mins = math.ceil(self.get_duration() / 60)
+        num_of_splits = total_mins / min_per_split
+        for i in range(0, total_mins, min_per_split):
+            split_fn = str(i) + '_' + self.filename
+            self.single_split(i, i+min_per_split, split_fn)
+        return int(num_of_splits)
