@@ -161,4 +161,4 @@ While the prerequisites above must be satisfied prior to having your pull reques
 
 ## References
 [Contributing.md](https://github.com/atom/atom/blob/master/CONTRIBUTING.md#specs-styleguide)
-C
+
