@@ -1,3 +1,4 @@
+Sum = 270/270
 <br clear=all>
 
 | Notes|Self Assessment  zero (none), one (a litte), two (somewhat), three (a lot)| Evidence|
