@@ -22,7 +22,7 @@ but nevertheless, here is a track record that everyone is contributing a lot)|3|
 | Use of code coverage |3 |[Evidence](https://camo.githubusercontent.com/c3bc1993cf3b44ab682ccb30db2b4186eb8f61ffcdcca5bfc00ae7df0a918e29/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436f7665726167652d39372532352d726564)|
 | other automated analysis tools|3 |config files in GH|
 | test cases exist|3 |Evidence in [Test](https://github.com/anshulp2912/scrivener/tree/main/test)|
-| test cases are routinely executed| 3|Test cases are run after every PUSH commit|
+| test cases are routinely executed| 1|Test cases are manually executed before every commit|
  | the files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up|3 |Evidence in [Contributing](https://github.com/anshulp2912/scrivener/blob/main/CONTRIBUTING.md) |
 | issues are discussed before they are closed| 3| Discussed on Discord Channel|
 | Chat channel: exists|3 |Evidence in [Discord]() |
@@ -31,7 +31,7 @@ but nevertheless, here is a track record that everyone is contributing a lot)|3|
 | evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people)|3 |Evidence in [Requirements](https://github.com/anshulp2912/scrivener/blob/main/requirements.txt) |
 | evidence that the whole team is using the same tools (e.g. tutor can ask anyone to share screen, they demonstrate the system running on their computer)|3 | |
 | evidence that the members of the team are working across multiple places in the code base| 3|Evidence in [Commit](https://github.com/anshulp2912/scrivener/commits/main) |
-|short release cycles | 0  |short release cycles cannot be shown in short period of time|
+|short release cycles | 1 |Evidence in [Commit](https://github.com/anshulp2912/scrivener/commits/main)|
 |Software: Does your website and documentation provide a clear, high-level overview of your software?|3 | In Documentation|
 |Software: Does your website and documentation clearly describe the type of user who should use your software?| 2|Documentation does, website does not |
 |Software: Do you publish case studies to show how your software has been used by yourself and others?|0 | |
@@ -44,7 +44,7 @@ but nevertheless, here is a track record that everyone is contributing a lot)|3|
 |software's documentation: Is your documentation clearly available on your website or within your software? |3 | |
 |software's documentation: Does your documentation include a "quick start" guide, that provides a short overview of how to use your software with some basic examples of use?| 3| [Readme](https://github.com/anshulp2912/scrivener/blob/main/README.md)|
 |software's documentation: If you provide more extensive documentation, does this provide clear, step-by-step instructions on how to deploy and use your software?|3 | |
-|software's documentation: Do you provide a comprehensive guide to all your software’s commands, functions and options? | 0| |
+|software's documentation: Do you provide a comprehensive guide to all your software’s commands, functions and options? | 3| Check Evidence in [Software Document] |
 |software's documentation: Do you provide troubleshooting information that describes the symptoms and step-by-step solutions for problems and error messages? |0 | |
 |software's documentation: Do you store your documentation under revision control with your source code?|3||
 |software's documentation: Do you publish your release history e.g. release data, version numbers, key features of each release etc. on your web site or in your documentation?|0|Not applicable|
@@ -61,7 +61,7 @@ but nevertheless, here is a track record that everyone is contributing a lot)|3|
 |Software and accessibility: Does your documentation adhere to appropriate accessibility conventions or standards?|3 |Yes it is accessible to anyone |
 |Manage source code: Is your source code stored in a repository under revision control? |3 | |
 |Manage source code: Are releases tagged in the repository? |0 |Not applicable|
-|Manage source code:Is there a branch of the repository that is always stable? (i.e. tests always pass, code always builds successfully) | 0| |
+|Manage source code:Is there a branch of the repository that is always stable? (i.e. tests always pass, code always builds successfully) | 2| main |
 |Manage source code:Do you back-up your repository? |3 | |
 |Building and installing your software: Do you provide publicly-available instructions for building your software from the source code? |3 | |
 |Building and installing your software: Do you provide publicly-available instructions for deploying your software?  |3||
@@ -72,7 +72,7 @@ but nevertheless, here is a track record that everyone is contributing a lot)|3|
 |Test your software: Do you have a framework to periodically (e.g. nightly) run your tests on the latest version of the source code?|2 |Manual tests |
 |Test your software: Do you use continuous integration, automatically running tests whenever changes are made to your source code? |0||
 |Test your software: Are your test results publicly visible?|3||
-|Test your software: Are all manually-run tests documented?|0||
+|Test your software: Are all manually-run tests documented?|3|Check Evidence in [Software Document]|
 |Engage with your community: Does your website state how many projects and users are associated with your project?|2|Github-Yes, Website- No|
 |Engage with your community: Do you provide success stories on your website? |0||
 |Engage with your community: Do you list your important partners and collaborators on your website?|0||
