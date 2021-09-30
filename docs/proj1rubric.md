@@ -25,13 +25,13 @@ but nevertheless, here is a track record that everyone is contributing a lot)|3|
 | test cases are routinely executed| |e.g. travis-com.com or github actions or something|
  | the files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up| | |
 | issues are discussed before they are closed| | even if you discuss in slack, need a sumamry statement here|
-| Chat channel: exists| | |
-| test cases:.a large proportion of the issues related to handling failing cases.| |if a test case fails, open an issue and fix it|
-| evidence that the whole team is using the same tools: everyone can get to all tools and files| | |
-| evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people)| | |
-| evidence that the whole team is using the same tools (e.g. tutor can ask anyone to share screen, they demonstrate the system running on their computer)| | |
-| evidence that the members of the team are working across multiple places in the code base| | |
-|short release cycles | 3,  |(hard to see in short projects) project members are committing often enough so that everyone can get your work|
+| Chat channel: exists|3 | |
+| test cases:.a large proportion of the issues related to handling failing cases.|3 |if a test case fails, open an issue and fix it|
+| evidence that the whole team is using the same tools: everyone can get to all tools and files|3 | |
+| evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people)|3 | |
+| evidence that the whole team is using the same tools (e.g. tutor can ask anyone to share screen, they demonstrate the system running on their computer)|3 | |
+| evidence that the members of the team are working across multiple places in the code base| 3| |
+|short release cycles | 3  |(hard to see in short projects) project members are committing often enough so that everyone can get your work|
 |Software: Does your website and documentation provide a clear, high-level overview of your software?|3 | |
 |Software: Does your website and documentation clearly describe the type of user who should use your software?| 3| |
 |Software: Do you publish case studies to show how your software has been used by yourself and others?|3 | |
