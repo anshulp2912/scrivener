@@ -103,7 +103,7 @@ class TranscribeYtVideo:
         # Download the youtube video
         youtube = pytube.YouTube(self.youtube_url)
         dwnld_video = youtube.streams.get_lowest_resolution()
-        dwnld_video.download(filename='temp.mp4',output_path='temp\\')
+        dwnld_video.download(filename='temp.mp4',output_path=os.getcwd()+'\\temp')
         # Get transcript of videos without caption
         transcribed_video = TranscribeVideo()
         # Call the summarization script
