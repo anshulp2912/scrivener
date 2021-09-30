@@ -5,7 +5,7 @@
 from main.summarize import Summary
 import speech_recognition as sr
 import moviepy.editor as mp
-from helper.split_audio import SplitWavAudioMubin
+from helper.split_audio import splitwavaudio
 import os
 from helper.cleanup import Cleanup
 
@@ -27,3 +27,10 @@ class TranscribeVideo:
             with audio as src:
                 audio_data = recognizer.record(src)
             transcript_text += recognizer.recognize_google(audio_data)
+        
+    def split_init(self):
+        folder = os.getcwd() + "\\" + 'temp'
+        file = 'temp_audio.wav'
+        split_wav = splitwavaudio(folder, file)
+        num_of_files = split_wav.multiple_split(min_per_split=2)
+        return num_of_files
