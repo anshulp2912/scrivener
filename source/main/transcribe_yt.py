@@ -22,3 +22,22 @@ class TranscribeYtVideo:
         except Exception as e:
             print(e)
         return transcript
+    
+    def transcribe_yt_video(self):
+        check_cc = self.check_yt_cc()
+        if check_cc is None:
+            self.transcribe_yt_video_wo_cc()
+        else:
+            self.transcribe_yt_video_w_cc()
+        return self.summary
+        
+    def transcribe_yt_video_w_cc(self):
+        transcript_json = YouTubeTranscriptApi.get_transcript(self.yt_id)
+        transcript_text = ''
+        for rec in transcript_json:
+            transcript_text += ' ' + rec['text']
+        transcript_summary = Summary(transcript_text)
+        summary = transcript_summary.summarize_text()
+        for lines in summary:
+            print(lines)
+        self.summary = '\\n'.join(summary)
