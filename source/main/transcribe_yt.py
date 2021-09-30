@@ -41,3 +41,10 @@ class TranscribeYtVideo:
         for lines in summary:
             print(lines)
         self.summary = '\\n'.join(summary)
+    
+    def transcribe_yt_video_wo_cc(self):
+        youtube = pytube.YouTube(self.youtube_url)
+        dwnld_video = youtube.streams.get_lowest_resolution()
+        dwnld_video.download(filename='temp.mp4',output_path='temp\\')
+        transcribed_video = TranscribeVideo()
+        self.summary = transcribed_video.transcribe_video(os.path.join(os.getcwd()+'\\temp', 'temp.mp4'))
