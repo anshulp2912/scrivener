@@ -32,24 +32,29 @@ The complete development was achieved using the Python3 technology and it is rec
 6. The UI typically looks as shown below and here you have a choice between URL, file or normal text input.
 
 ## FUTURE SCOPE
-
-- Support multiple extensions of video file.
-- Summarization of multiple languages.
-- Summarization of Podcasts (audiofiles)
-- Auto summary as a video.
-- Summarization of videos for particular time frames.
-- Compare Summarization models.
-- Improve UI.
-- Summarization as a audio.
-- Summarization of audios for particular time frames.
-- Adding Chrome extension.
-- Sentiment Analysis of the summary.
+For enhancement of this project following functionalities can be implemented
+- Currently our application supports youtube videos and videos with .mp4 extension. Provide support for other video formats
+- Perform summarization for videos in languages other than English
+- Generate summary of Podcasts or other audiofiles
+- Provide summary in form of video
+- Generate summary of videos for specific time frames
+- Compare various Summarization models and provide optimal summary
+- UI Enhancement
+- Provide summary in form of audio
+- Generate summary of audio for specific time frames
+- Adding Chrome extension for SCRIVENER
+- Provide Sentiment Analysis of the generated summary
+- Develop a Discord BOT for SCRIVENER
 
 ## Team Members
 
- - Anshul Navinbhai Patel
- - Bhavya Omprakash Agrawal
- - Darshan Manharbhai Patel
- - Pragna Bollam
- - Rohan Jigarbhai Shah
+Anshul Patel
+
+Bhavya Omprakash Agrawal
+
+Darshan Patel
+
+Pragna Bollam
+
+Rohan Shah
 				
