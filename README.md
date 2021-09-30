@@ -47,13 +47,9 @@ The complete development was achieved using the Python3 technology and it is rec
 
 ## Team Members
 
-Anshul Patel
-
-Bhavya Omprakash Agrawal
-
-Darshan Patel
-
-Pragna Bollam
-
-Rohan Shah
+ - Anshul Navinbhai Patel
+ - Bhavya Omprakash Agrawal
+ - Darshan Manharbhai Patel
+ - Pragna Bollam
+ - Rohan Jigarbhai Shah
 				
