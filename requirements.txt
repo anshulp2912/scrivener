@@ -5,4 +5,3 @@ youtube_transcript_api==0.4.1
 pytube==11.0.1
 SpeechRecognition==3.8.1
 streamlit==0.89.0
-secrets==1.0.2
