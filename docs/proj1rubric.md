@@ -10,48 +10,48 @@ but nevertheless, here is a track record that everyone is contributing a lot)|3|
 | Issues reports: there are **many**|3| Evidence in [Road Map](https://github.com/anshulp2912/scrivener/projects)|
 |  Issues are being  closed|3| Evidence in [Road Map](https://github.com/anshulp2912/scrivener/projects)|
 | DOI badge: exists |3|Evidence in [Github](https://github.com/anshulp2912/scrivener)|
-|Docs: doco generated , format not ugly |3|Evidence in [Github](https://github.com/anshulp2912/scrivener)|
-|Docs: what: point descriptions of each class/function (in isolation) |3 | |
-|Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z| 3|doc page entries|
-|Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing|3 | |
-|Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code.|3 | |
-| Use of version control tools|3 | |
-|Use of  style checkers |3 |config files in GH showing your config| 
+|Docs: doco generated , format not ugly |3|Evidence in [Docs](https://github.com/anshulp2912/scrivener/tree/main/docs)|
+|Docs: what: point descriptions of each class/function (in isolation) |3 |Evidence in [Software Document] |
+|Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z| 3|Evidence in [Software Document]|
+|Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing|3 | Evidence in [Software Document]|
+|Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code.|3 |Evidence in [Youtube] |
+| Use of version control tools|3 | Evidence in [Requirements](https://github.com/anshulp2912/scrivener/blob/main/requirements.txt)|
+|Use of  style checkers |3 |Evidence in [Contributing](https://github.com/anshulp2912/scrivener/blob/main/CONTRIBUTING.md)| 
 | Use of code  formatters. | 3|config files in GH showing your this formatter's  config|
 | Use of syntax checkers| 3 |config files iin  GH showing this checker's config|
-| Use of code coverage |3 |config files in GH|
+| Use of code coverage |3 |[Evidence](https://camo.githubusercontent.com/c3bc1993cf3b44ab682ccb30db2b4186eb8f61ffcdcca5bfc00ae7df0a918e29/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436f7665726167652d39372532352d726564)|
 | other automated analysis tools|3 |config files in GH|
-| test cases exist|3 |dozens of tests and those test cases are more than 30% of the  code base|
-| test cases are routinely executed| 3|e.g. travis-com.com or github actions or something|
- | the files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up|3 | |
-| issues are discussed before they are closed| 3| even if you discuss in slack, need a sumamry statement here|
-| Chat channel: exists|3 | |
-| test cases:.a large proportion of the issues related to handling failing cases.|3 |if a test case fails, open an issue and fix it|
-| evidence that the whole team is using the same tools: everyone can get to all tools and files|3 | |
-| evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people)|3 | |
+| test cases exist|3 |Evidence in [Test](https://github.com/anshulp2912/scrivener/tree/main/test)|
+| test cases are routinely executed| 3|Test cases are run after every PUSH commit|
+ | the files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up|3 |Evidence in [Contributing](https://github.com/anshulp2912/scrivener/blob/main/CONTRIBUTING.md) |
+| issues are discussed before they are closed| 3| Discussed on Discord Channel|
+| Chat channel: exists|3 |Evidence in [Discord]() |
+| test cases:.a large proportion of the issues related to handling failing cases.|3 |Each test case handles the failing tests itself|
+| evidence that the whole team is using the same tools: everyone can get to all tools and files|3 |Evidence in [Requirements](https://github.com/anshulp2912/scrivener/blob/main/requirements.txt) |
+| evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people)|3 |Evidence in [Requirements](https://github.com/anshulp2912/scrivener/blob/main/requirements.txt) |
 | evidence that the whole team is using the same tools (e.g. tutor can ask anyone to share screen, they demonstrate the system running on their computer)|3 | |
-| evidence that the members of the team are working across multiple places in the code base| 3| |
-|short release cycles | 3  |(hard to see in short projects) project members are committing often enough so that everyone can get your work|
-|Software: Does your website and documentation provide a clear, high-level overview of your software?|3 | |
-|Software: Does your website and documentation clearly describe the type of user who should use your software?| 3| |
-|Software: Do you publish case studies to show how your software has been used by yourself and others?|3 | |
+| evidence that the members of the team are working across multiple places in the code base| 3|Evidence in [Commit](https://github.com/anshulp2912/scrivener/commits/main) |
+|short release cycles | 0  |short release cycles cannot be shown in short period of time|
+|Software: Does your website and documentation provide a clear, high-level overview of your software?|3 | In Documentation|
+|Software: Does your website and documentation clearly describe the type of user who should use your software?| 2|Documentation does, website does not |
+|Software: Do you publish case studies to show how your software has been used by yourself and others?|0 | |
 |Project's and software's identity: Is the name of your project/software unique?|3||
 |Project's and software's identity: Is your project/software name free from trademark violations?| 3| |
-|Availability of your software: Is your software available as a package that can be deployed without building it?|3 ||
+|Availability of your software: Is your software available as a package that can be deployed without building it?|3 |[website](https://share.streamlit.io/anshulp2912/scrivener/main/source/scrivener_user_interface.py)|
 |Availability of your software:Is your software available for free?|3 | |
 |Availability of your software: Is your source code publicly available to download, either as a downloadable bundle or via access to a source code repository?|3 | |
 |Availability of your software: Is your software hosted in an established, third-party repository likeGitHub (https://github.com), BitBucket (https://bitbucket.org),LaunchPad (https://launchpad.net) orSourceForge (https://sourceforge.net)? |3 | |
 |software's documentation: Is your documentation clearly available on your website or within your software? |3 | |
-|software's documentation: Does your documentation include a "quick start" guide, that provides a short overview of how to use your software with some basic examples of use?| 3| |
+|software's documentation: Does your documentation include a "quick start" guide, that provides a short overview of how to use your software with some basic examples of use?| 3| [Readme](https://github.com/anshulp2912/scrivener/blob/main/README.md)|
 |software's documentation: If you provide more extensive documentation, does this provide clear, step-by-step instructions on how to deploy and use your software?|3 | |
-|software's documentation: Do you provide a comprehensive guide to all your software’s commands, functions and options? | 3| |
-|software's documentation: Do you provide troubleshooting information that describes the symptoms and step-by-step solutions for problems and error messages? |3 | |
+|software's documentation: Do you provide a comprehensive guide to all your software’s commands, functions and options? | 0| |
+|software's documentation: Do you provide troubleshooting information that describes the symptoms and step-by-step solutions for problems and error messages? |0 | |
 |software's documentation: Do you store your documentation under revision control with your source code?|3||
-|software's documentation: Do you publish your release history e.g. release data, version numbers, key features of each release etc. on your web site or in your documentation?|3||
+|software's documentation: Do you publish your release history e.g. release data, version numbers, key features of each release etc. on your web site or in your documentation?|0|Not applicable|
 |Support your software: Does your software describe how a user can get help with using your software? | 3| |
-|Support your software: Does your website and documentation describe what support, if any, you provide to users and developers?|3 | |
+|Support your software: Does your website and documentation describe what support, if any, you provide to users and developers?|3 | Evidence in [Contributing](https://github.com/anshulp2912/scrivener/blob/main/CONTRIBUTING.md)|
 |Support your software: Does your project have an e-mail address or forum that is solely for supporting users?|3 | |
-|Support your software: Are e-mails to your support e-mail address received by more than one person? |3 | |
+|Support your software: Are e-mails to your support e-mail address received by more than one person? |0 | |
 |software's maintainability: Is your software’s architecture and design modular?| 3| |
 |software's maintainability: Does your software use an accepted coding standard or convention? |3 | |
 |Open standards and your software: Does your software allow data to be imported and exported using open data formats?|3 | |
