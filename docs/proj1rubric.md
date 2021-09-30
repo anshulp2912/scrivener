@@ -55,41 +55,41 @@ but nevertheless, here is a track record that everyone is contributing a lot)|3|
 |software's maintainability: Is your software’s architecture and design modular?| 3| |
 |software's maintainability: Does your software use an accepted coding standard or convention? |3 | |
 |Open standards and your software: Does your software allow data to be imported and exported using open data formats?|3 | |
-|Open standards and your software: Does your software allow communications using open communications protocols?|3 | |
+|Open standards and your software: Does your software allow communications using open communications protocols?|3 |It can run on localhost |
 |Software's portability: Is your software cross-platform compatible?|3 | |
 |Software and accessibility: Does your software adhere to appropriate accessibility conventions or standards?|3 | |
-|Software and accessibility: Does your documentation adhere to appropriate accessibility conventions or standards?|3 | |
+|Software and accessibility: Does your documentation adhere to appropriate accessibility conventions or standards?|3 |Yes it is accessible to anyone |
 |Manage source code: Is your source code stored in a repository under revision control? |3 | |
-|Manage source code: Are releases tagged in the repository? |3 | |
-|Manage source code:Is there a branch of the repository that is always stable? (i.e. tests always pass, code always builds successfully) | 3| |
+|Manage source code: Are releases tagged in the repository? |0 |Not applicable|
+|Manage source code:Is there a branch of the repository that is always stable? (i.e. tests always pass, code always builds successfully) | 0| |
 |Manage source code:Do you back-up your repository? |3 | |
 |Building and installing your software: Do you provide publicly-available instructions for building your software from the source code? |3 | |
 |Building and installing your software: Do you provide publicly-available instructions for deploying your software?  |3||
 |Building and installing your software:Does your documentation list all third-party dependencies? |3 | |
 |Building and installing your software:Does your documentation list the version number for all third-party dependencies? | 3| |
-|Building and installing your software: Do you have tests that can be run after your software has been built or deployed to show whether the build or deployment has been successful? |3 | Evidence in Test |
-|Test your software: Do you have an automated test suite for your software? |3 | |
-|Test your software: Do you have a framework to periodically (e.g. nightly) run your tests on the latest version of the source code?|3 | |
-|Test your software: Do you use continuous integration, automatically running tests whenever changes are made to your source code? |3||
+|Building and installing your software: Do you have tests that can be run after your software has been built or deployed to show whether the build or deployment has been successful? |3 | Evidence in [Test](https://github.com/anshulp2912/scrivener/tree/main/test) |
+|Test your software: Do you have an automated test suite for your software? |0 | |
+|Test your software: Do you have a framework to periodically (e.g. nightly) run your tests on the latest version of the source code?|2 |Manual tests |
+|Test your software: Do you use continuous integration, automatically running tests whenever changes are made to your source code? |0||
 |Test your software: Are your test results publicly visible?|3||
-|Test your software: Are all manually-run tests documented?|3||
-|Engage with your community: Does your website state how many projects and users are associated with your project?|3||
-|Engage with your community: Do you provide success stories on your website? |3||
-|Engage with your community: Do you list your important partners and collaborators on your website?|3||
-|Engage with your community: Do you list your project's publications on your website or link to a resource where these are available?|3||
+|Test your software: Are all manually-run tests documented?|0||
+|Engage with your community: Does your website state how many projects and users are associated with your project?|2|Github-Yes, Website- No|
+|Engage with your community: Do you provide success stories on your website? |0||
+|Engage with your community: Do you list your important partners and collaborators on your website?|0||
+|Engage with your community: Do you list your project's publications on your website or link to a resource where these are available?|3|Evidence in [Readme](https://github.com/anshulp2912/scrivener/blob/main/README.md)|
 |Engage with your community: Do you list third-party publications that refer to your software on your website or link to a resource where these are available? |3||
-|Engage with your community: Can users subscribe to notifications to changes to your source code repository?|3||
-|Engage with your community: If your software is developed as an open source project (and, not just a project developing open source software), do you have a governance model?|3||
-|Manage contributions: Do you accept contributions (e.g. bug fixes, enhancements, documentation updates, tutorials) from people who are not part of your project?|3||
-|Manage contributions: Do you have a contributions policy?|3||
-|Manage contributions: Is your contributions' policy publicly available?|3||
-|Manage contributions: Do contributors keep the copyright/IP of their contributions?|3||
-|Software's copyright and licensing: Does your website and documentation clearly state the copyright owners of your software and documentation? |3||
+|Engage with your community: Can users subscribe to notifications to changes to your source code repository?|2|Added to Roadmap|
+|Engage with your community: If your software is developed as an open source project (and, not just a project developing open source software), do you have a governance model?|0||
+|Manage contributions: Do you accept contributions (e.g. bug fixes, enhancements, documentation updates, tutorials) from people who are not part of your project?|3|Evidence in [Contributing](https://github.com/anshulp2912/scrivener/blob/main/CONTRIBUTING.md)|
+|Manage contributions: Do you have a contributions policy?|3|Evidence in [Contributing](https://github.com/anshulp2912/scrivener/blob/main/CONTRIBUTING.md)|
+|Manage contributions: Is your contributions' policy publicly available?|3|Evidence in [Contributing](https://github.com/anshulp2912/scrivener/blob/main/CONTRIBUTING.md)|
+|Manage contributions: Do contributors keep the copyright/IP of their contributions?|3|Evidence in [License](https://github.com/anshulp2912/scrivener/blob/main/LICENSE)|
+|Software's copyright and licensing: Does your website and documentation clearly state the copyright owners of your software and documentation? |3|Evidence in [License](https://github.com/anshulp2912/scrivener/blob/main/LICENSE)|
 |Software's copyright and licensing: Does each of your source code files include a copyright statement? |3||
-|Software's copyright and licensing: Does your website and documentation clearly state the licence of your software? |3||
-|Software's copyright and licensing: Is your software released under an open source licence?|3||
-|Software's copyright and licensing: Is your software released under an OSI-approved open-source licence? |3||
+|Software's copyright and licensing: Does your website and documentation clearly state the licence of your software? |2|Yes for documentation, No- Website|
+|Software's copyright and licensing: Is your software released under an open source licence?|3|Evidence in [License](https://github.com/anshulp2912/scrivener/blob/main/LICENSE)|
+|Software's copyright and licensing: Is your software released under an OSI-approved open-source licence? |3|Evidence in [License](https://github.com/anshulp2912/scrivener/blob/main/LICENSE)|
 |Software's copyright and licensing: Does each of your source code files include a licence header?|3||
-|Software's copyright and licensing: Do you have a recommended citation for your software?|3||
+|Software's copyright and licensing: Do you have a recommended citation for your software?|3|Evidence in [Citation](https://github.com/anshulp2912/scrivener/blob/main/CITATION.md)|
 |Plans for the future: Does your website or documentation include a project roadmap (a list of project and development milestones for the next 3, 6 and 12 months)? |3|Evidence in [Road Map](https://github.com/anshulp2912/scrivener/projects)|
- |Plans for the future: Do you make timely announcements of the deprecation of components, APIs, etc.? |3||
+ |Plans for the future: Do you make timely announcements of the deprecation of components, APIs, etc.? |0|Not applicable|
