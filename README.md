@@ -33,27 +33,17 @@ The complete development was achieved using the Python3 technology and it is rec
 
 ## FUTURE SCOPE
 
-Support multiple extensions of video file.
-
-Summarization of multiple languages.
-
-Summarization of Podcasts (audiofiles).
-
-Auto summary as a video.
-
-Summarization of videos for particular time frames.
-
-Compare Summarization models.
-
-Improve UI.
-
-Summarization as a audio.
-
-Summarization of audios for particular time frames.
-
-Adding Chrome extension.
-
-Sentiment Analysis of the summary.
+- Support multiple extensions of video file.
+- Summarization of multiple languages.
+- Summarization of Podcasts (audiofiles)
+- Auto summary as a video.
+- Summarization of videos for particular time frames.
+- Compare Summarization models.
+- Improve UI.
+- Summarization as a audio.
+- Summarization of audios for particular time frames.
+- Adding Chrome extension.
+- Sentiment Analysis of the summary.
 
 ## Team Members
 
