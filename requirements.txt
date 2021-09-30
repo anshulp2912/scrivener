@@ -64,8 +64,6 @@ pyasn1-modules==0.2.8
 pydeck==0.6.2
 pydub==0.25.1
 pytube==11.0.1
-pywin32==228
-pywin32-ctypes==0.2.0
 pywinpty==1.1.4
 PyYAML==5.4.1
 regex==2021.9.24
