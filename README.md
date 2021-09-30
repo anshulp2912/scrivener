@@ -48,13 +48,9 @@ For enhancement of this project following functionalities can be implemented
 
 ## Team Members
 
-Anshul Patel
-
-Bhavya Omprakash Agrawal
-
-Darshan Patel
-
-Pragna Bollam
-
-Rohan Shah
+- Anshul Navinbhai Patel
+- Bhavya Omprakash Agrawal
+- Darshan Manharbhai Patel
+- Pragna Bollam
+- Rohan Jigarbhai Shah
 				
