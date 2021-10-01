@@ -60,3 +60,9 @@ For enhancement of this project following functionalities can be implemented
 - Pragna Bollam
 - Rohan Jigarbhai Shah
 				
+## Acknowledgments
+We would like to thank Professor Dr Timothy Menzies for helping us understand the process of building a good Software Engineering project. We would also like to thank the teaching assistants Xiao Ling, Andre Lustosa, Kewen Peng, Weichen Shi for their support throughout the project.
+- [https://streamlit.io/](https://streamlit.io/)
+- [https://huggingface.co/](https://huggingface.co/)
+- [https://shields.io/](https://shields.io/)
+- [https://www.powtoon.com/](https://www.powtoon.com/)
