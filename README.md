@@ -31,6 +31,12 @@ The complete development was achieved using the Python3 technology and it is rec
 5. Next, open your browser and type in `localhost:8501` in the search bar to open the webUI of the application.
 6. The UI typically looks as shown below and here you have a choice between URL, file or normal text input.
 
+## License
+This project is licensed under the MIT License.
+
+## Contributions
+Please see our [CONTRIBUTING.md](https://github.com/anshulp2912/scrivener/blob/main/CONTRIBUTING.md) for instructions on how to contribute to the project by completing some of the issues.
+
 ## FUTURE SCOPE
 For enhancement of this project following functionalities can be implemented
 - Currently our application supports youtube videos and videos with .mp4 extension. Provide support for other video formats
