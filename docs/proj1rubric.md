@@ -14,7 +14,7 @@ but nevertheless, here is a track record that everyone is contributing a lot)|3|
 |Docs: what: point descriptions of each class/function (in isolation) |3 |Evidence in [Software Document] (https://github.com/anshulp2912/scrivener/blob/main/docs/Project%20Documentation.pdf)|
 |Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z| 3|Evidence in [Software Document](https://github.com/anshulp2912/scrivener/blob/main/docs/Project%20Documentation.pdf)|
 |Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing|3 | Evidence in [Software Document](https://github.com/anshulp2912/scrivener/blob/main/docs/Project%20Documentation.pdf)|
-|Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code.|3 |Evidence in [Youtube] |
+|Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code.|3 |Evidence in [Youtube](https://www.youtube.com/watch?v=_pg9M32LiG8&ab_channel=AnshulPatel)|
 | Use of version control tools|3 | Evidence in [Requirements](https://github.com/anshulp2912/scrivener/blob/main/requirements.txt)|
 |Use of  style checkers |0 || 
 | Use of code  formatters. | 0||
