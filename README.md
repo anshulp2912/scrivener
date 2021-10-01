@@ -30,11 +30,13 @@ The project is deployed on both Streamlit cloud and Heroku.
 
 ## Steps for execution <a name="ExecutionSteps"></a>
 1. Clone the Git repository.
-2. Run `pip install -r requirements.txt` followed by `python -c`
+2. Run `pip install -r requirements.txt`
 3. Open Command Prompt and change the directory to the location of cloned repository.
 4. Run the command `streamlit run user_interface.py`
 5. Next, open your browser and type in `localhost:8501` in the search bar to open the webUI of the application.
 6. The UI typically looks as shown below and here you have a choice between URL, file or normal text input.
+
+<img src="https://github.com/anshulp2912/scrivener/blob/main/media/demo.PNG" />
 
 ## License <a name="License"></a>
 This project is licensed under the terms of the MIT license. Please check [License](https://github.com/anshulp2912/scrivener/blob/main/LICENSE) for more details.
