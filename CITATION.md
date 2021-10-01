@@ -1,5 +1,5 @@
 For the most up to date citation, click the following badge:
-[![DOI](https://zenodo.org/record/5532972#.YVYZTprMJPY)]
+[![DOI](https://zenodo.org/badge/409326011.svg)](https://zenodo.org/badge/latestdoi/409326011)
 
 # BibTeX
 ```text
