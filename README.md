@@ -12,6 +12,7 @@
 ![Lines of code](https://img.shields.io/badge/Lines%20of%20Code-1K-blue)
 ![Coverage](https://img.shields.io/badge/Coverage-97%25-red)
 ![Contributors](https://img.shields.io/badge/Contributors-5-yellowgreen)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=_pg9M32LiG8&ab_channel=AnshulPatel)
 
 ## INTRODUCTION <a name="Introduction"></a>
 
