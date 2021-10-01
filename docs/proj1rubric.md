@@ -1,4 +1,4 @@
-Sum = 270/270
+Sum = 219/270
 <br clear=all>
 
 | Notes|Self Assessment  zero (none), one (a litte), two (somewhat), three (a lot)| Evidence|
@@ -11,27 +11,27 @@ but nevertheless, here is a track record that everyone is contributing a lot)|3|
 |  Issues are being  closed|3| Evidence in [Road Map](https://github.com/anshulp2912/scrivener/projects)|
 | DOI badge: exists |3|Evidence in [Github](https://github.com/anshulp2912/scrivener)|
 |Docs: doco generated , format not ugly |3|Evidence in [Docs](https://github.com/anshulp2912/scrivener/tree/main/docs)|
-|Docs: what: point descriptions of each class/function (in isolation) |3 |Evidence in [Software Document] |
-|Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z| 3|Evidence in [Software Document]|
-|Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing|3 | Evidence in [Software Document]|
+|Docs: what: point descriptions of each class/function (in isolation) |3 |Evidence in [Software Document] (https://github.com/anshulp2912/scrivener/blob/main/docs/Project%20Documentation.pdf)|
+|Docs: how: for common use cases X,Y,Z mini-tutorials showing worked examples on how to do X,Y,Z| 3|Evidence in [Software Document](https://github.com/anshulp2912/scrivener/blob/main/docs/Project%20Documentation.pdf)|
+|Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing|3 | Evidence in [Software Document](https://github.com/anshulp2912/scrivener/blob/main/docs/Project%20Documentation.pdf)|
 |Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code.|3 |Evidence in [Youtube] |
 | Use of version control tools|3 | Evidence in [Requirements](https://github.com/anshulp2912/scrivener/blob/main/requirements.txt)|
-|Use of  style checkers |3 |Evidence in [Contributing](https://github.com/anshulp2912/scrivener/blob/main/CONTRIBUTING.md)| 
-| Use of code  formatters. | 3|config files in GH showing your this formatter's  config|
-| Use of syntax checkers| 3 |config files iin  GH showing this checker's config|
+|Use of  style checkers |0 || 
+| Use of code  formatters. | 0||
+| Use of syntax checkers| 0 ||
 | Use of code coverage |3 |[Evidence](https://camo.githubusercontent.com/c3bc1993cf3b44ab682ccb30db2b4186eb8f61ffcdcca5bfc00ae7df0a918e29/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f436f7665726167652d39372532352d726564)|
-| other automated analysis tools|3 |config files in GH|
+| other automated analysis tools|0 ||
 | test cases exist|3 |Evidence in [Test](https://github.com/anshulp2912/scrivener/tree/main/test)|
-| test cases are routinely executed| 1|Test cases are manually executed before every commit|
+| test cases are routinely executed| 3|Test cases are manually executed before every commit|
  | the files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up|3 |Evidence in [Contributing](https://github.com/anshulp2912/scrivener/blob/main/CONTRIBUTING.md) |
 | issues are discussed before they are closed| 3| Discussed on Discord Channel|
-| Chat channel: exists|3 |Evidence in [Discord]() |
+| Chat channel: exists|3 |Evidence in [Discord](https://discord.gg/HuY426EF) |
 | test cases:.a large proportion of the issues related to handling failing cases.|3 |Each test case handles the failing tests itself|
 | evidence that the whole team is using the same tools: everyone can get to all tools and files|3 |Evidence in [Requirements](https://github.com/anshulp2912/scrivener/blob/main/requirements.txt) |
 | evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people)|3 |Evidence in [Requirements](https://github.com/anshulp2912/scrivener/blob/main/requirements.txt) |
 | evidence that the whole team is using the same tools (e.g. tutor can ask anyone to share screen, they demonstrate the system running on their computer)|3 | |
 | evidence that the members of the team are working across multiple places in the code base| 3|Evidence in [Commit](https://github.com/anshulp2912/scrivener/commits/main) |
-|short release cycles | 1 |Evidence in [Commit](https://github.com/anshulp2912/scrivener/commits/main)|
+|short release cycles | 3 |Evidence in [Commit](https://github.com/anshulp2912/scrivener/commits/main)|
 |Software: Does your website and documentation provide a clear, high-level overview of your software?|3 | In Documentation|
 |Software: Does your website and documentation clearly describe the type of user who should use your software?| 2|Documentation does, website does not |
 |Software: Do you publish case studies to show how your software has been used by yourself and others?|0 | |
