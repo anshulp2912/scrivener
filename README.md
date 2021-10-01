@@ -32,7 +32,7 @@ The complete development was achieved using the Python3 technology and it is rec
 6. The UI typically looks as shown below and here you have a choice between URL, file or normal text input.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the terms of the MIT license. Please check [License](https://github.com/anshulp2912/scrivener/blob/main/LICENSE) for more details.
 
 ## Contributions
 Please see our [CONTRIBUTING.md](https://github.com/anshulp2912/scrivener/blob/main/CONTRIBUTING.md) for instructions on how to contribute to the project by completing some of the issues.
