@@ -9,9 +9,6 @@ This code is licensed under MIT license (see LICENSE.MD for details)
 import sumy
 from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
-from sumy.summarizers.lex_rank import LexRankSummarizer
-
-from sumy.summarizers.luhn import LuhnSummarizer
 from sumy.summarizers.lsa import LsaSummarizer
 
 class Summary:
@@ -28,7 +25,7 @@ class Summary:
     Methods
     -------
     summarize_text:
-        Generate the summary using Hugging Face.
+        Generate the summary using the LSA summarization algorithm.
     """
 
     def __init__(self, transcribed_text):
