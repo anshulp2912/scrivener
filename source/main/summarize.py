@@ -11,6 +11,9 @@ from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lex_rank import LexRankSummarizer
 
+from sumy.summarizers.luhn import LuhnSummarizer
+from sumy.summarizers.lsa import LsaSummarizer
+
 class Summary:
     """
     A class used to generate summary text from the transcribed text provided.
@@ -46,8 +49,9 @@ class Summary:
         summary_text = []
         # initialize a text parser taking in transcribed text, and setting language to english
         parser = PlaintextParser.from_string(self.transcribed_text, Tokenizer("english"))
-        # initialize the summarizer object
-        summarizer = LexRankSummarizer()
+        # initialize the summarizer object - you can use different summarization algorithms here
+        # such has LexRank and Luhn
+        summarizer = LsaSummarizer()
         # create a summary passing in the transcribed text and setting the number of sentences
         summary = summarizer(parser.document, 10)
 
