@@ -13,6 +13,7 @@ from helper.split_audio import splitwavaudio
 import os
 from helper.cleanup import Cleanup
 
+from main.punctuation import Punctuation
 
 class TranscribeVideo:
 
@@ -63,9 +64,11 @@ class TranscribeVideo:
                 audio_data = recognizer.record(src)
             #Perform speech to text and store the text
             transcript_text += recognizer.recognize_google(audio_data)
-        
+
+        punctuated_transcription = Punctuation.add_punctuation_transcript(transcript_text)
+
         #Call the summarization script
-        transcript_summary = Summary(transcript_text)
+        transcript_summary = Summary(punctuated_transcription)
         summary = transcript_summary.summarize_text()
         for lines in summary:
             print(lines)
