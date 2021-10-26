@@ -127,3 +127,9 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# ML Models
+source/punct_model_full.pcl
+
+#.idea files
+.idea

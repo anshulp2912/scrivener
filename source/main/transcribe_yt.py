@@ -11,6 +11,8 @@ import pytube
 import os
 from youtube_transcript_api import YouTubeTranscriptApi
 from main.transcribe import TranscribeVideo
+from main.punctuation import Punctuation
+
 
 class TranscribeYtVideo:
     """
@@ -39,7 +41,7 @@ class TranscribeYtVideo:
         Generate summary for Youtube videos without Closed Captions
     """
     
-    def __init__(self,youtube_url):
+    def __init__(self, youtube_url):
         """
         Parameters
         ----------
@@ -91,8 +93,11 @@ class TranscribeYtVideo:
         # Extract the captions
         for rec in transcript_json:
             transcript_text += ' ' + rec['text']
+
+        punctuated_transcription = Punctuation.add_punctuation_transcript(transcript_text)
+
         # Call the summarization script
-        transcript_summary = Summary(transcript_text)
+        transcript_summary = Summary(punctuated_transcription)
         summary = transcript_summary.summarize_text()
         for lines in summary:
             print(lines)

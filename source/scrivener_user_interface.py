@@ -14,6 +14,8 @@ from main.transcribe_yt import TranscribeYtVideo
 import secrets
 from glob import glob
 
+import shutil
+
 # Hide Footer in Streamlit
 hide_menu_style = """
         <style>
@@ -53,6 +55,22 @@ text-align: center;
 </div>
 """
 st.markdown(footer,unsafe_allow_html=True)
+
+# Check if ML model files have been combined, if not combine them
+# This needs to be done because the full file is greater than 100mb
+# and GitHub does not allow files larger than 100mb to be pushed
+if not os.path.exists('source/punct_model_full.pcl'):
+    print("Creating punct_model_full.pcl file for ML model...")
+    first_file = os.path.abspath('source/punct_model_part1.pcl')
+    second_file = os.path.abspath('source/punct_model_part2.pcl')
+    third_file = os.path.abspath('source/punct_model_part3.pcl')
+    new_file = os.path.abspath('source/punct_model_full.pcl')
+
+    with open(new_file, "wb") as wfd:
+        for f in [first_file, second_file, third_file]:
+            with open(f, "rb") as fd:
+                shutil.copyfileobj(fd, wfd, 1024 * 1024 * 10)
+
 
 # Download the uploaded video file
 def save_file(file):

@@ -6,7 +6,10 @@ This code is licensed under MIT license (see LICENSE.MD for details)
 """
 
 # Import Libraries
-from transformers import pipeline
+import sumy
+from sumy.parsers.plaintext import PlaintextParser
+from sumy.nlp.tokenizers import Tokenizer
+from sumy.summarizers.lsa import LsaSummarizer
 
 class Summary:
     """
@@ -22,11 +25,10 @@ class Summary:
     Methods
     -------
     summarize_text:
-        Generate the summary using Hugging Face.
+        Generate the summary using the LSA summarization algorithm.
     """
-    
-    
-    def __init__(self,transcribed_text):
+
+    def __init__(self, transcribed_text):
         """
         Parameters
         ----------
@@ -34,25 +36,25 @@ class Summary:
             text extracted from video
         """
         self.transcribed_text = transcribed_text
-    
+
     def summarize_text(self):
         """ 
         Generate summary for Youtube videos with Closed Captions
         """
-        
-        #use summarization model from pipeline object from transformers
-        summarizer = pipeline('summarization', model="t5-base", tokenizer="t5-base")
-        
-        #initializing empty list
+
+        # initializing empty list
         summary_text = []
-        
-        itrs = len(self.transcribed_text) // 1000
-        for i in range(itrs+1):
-            start = 1000 * i
-            end = 1000 * (i + 1) 
-            #splitting text into chunks of 1000 characters
-            output = summarizer(self.transcribed_text[start:end])[0]['summary_text']
-            #appending summary output of each chunk to summary_text list
-            summary_text.append(output)
-        #return summary_text to calling function
-        return summary_text 
+        # initialize a text parser taking in transcribed text, and setting language to english
+        parser = PlaintextParser.from_string(self.transcribed_text, Tokenizer("english"))
+        # initialize the summarizer object - you can use different summarization algorithms here
+        # such has LexRank and Luhn
+        summarizer = LsaSummarizer()
+        # create a summary passing in the transcribed text and setting the number of sentences
+        summary = summarizer(parser.document, 10)
+
+        # loop through sentences turning them into strings and appending them to summary_text
+        for sentences in summary:
+            summary_text.append(str(sentences))
+
+        # return summary_text to calling function
+        return summary_text
