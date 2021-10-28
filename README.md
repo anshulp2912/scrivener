@@ -13,6 +13,7 @@
 ![Coverage](https://img.shields.io/badge/Coverage-97%25-red)
 ![Contributors](https://img.shields.io/badge/Contributors-5-yellowgreen)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/TommasU/scrivener)
+[![AutoPep8](https://img.shields.io/badge/AutoPep8-1.6.0-brightgreen)](https://pypi.org/project/autopep8/)
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=_pg9M32LiG8&ab_channel=AnshulPatel)
 
 ## Table of Contents
