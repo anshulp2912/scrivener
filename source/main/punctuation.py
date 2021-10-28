@@ -1,6 +1,7 @@
 from punctuator import Punctuator
 import os.path
 
+
 class Punctuation:
     """
     A class used to add punctuation to transcripts
@@ -17,6 +18,7 @@ class Punctuation:
     add_punctuation_transcript:
         Adds punctuation to string
     """
+
     def __init__(self):
         """
         Parameters
@@ -38,8 +40,19 @@ class Punctuation:
 
         # replace punctuation errors, sometimes ML model will double up on punctuation, replace it such that there is
         # only one punctuation which is correct
-        punct_text = punct_text.replace(',,', ',').replace('!,', '!').replace('.,', '.').replace('?,', '?')\
-            .replace(',.', ',').replace('!.', '!').replace('..', '.').replace('?.', '?').replace('",', ',"')\
-            .replace('".', '."').replace('"!', '!"').replace('"?', '?"')
+        punct_text = (
+            punct_text.replace(",,", ",")
+            .replace("!,", "!")
+            .replace(".,", ".")
+            .replace("?,", "?")
+            .replace(",.", ",")
+            .replace("!.", "!")
+            .replace("..", ".")
+            .replace("?.", "?")
+            .replace('",', ',"')
+            .replace('".', '."')
+            .replace('"!', '!"')
+            .replace('"?', '?"')
+        )
 
         return punct_text

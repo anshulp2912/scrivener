@@ -6,7 +6,7 @@
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
 [![GitHub issues](https://img.shields.io/github/issues/TommasU/scrivener)](https://github.com/TommasU/scrivener/issues)
-[![GitHub forks](https://img.shields.io/github/forks/TommasU/scrivener)](https://github.com/TommasU/scrivener/network)
+![pylint](https://img.shields.io/badge/-pylint-orange)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5601143.svg)](https://doi.org/10.5281/zenodo.5601143)
 [![GitHub license](https://img.shields.io/github/license/TommasU/scrivener)](https://github.com/TommasU/scrivener/blob/main/LICENSE)
 ![Lines of code](https://img.shields.io/tokei/lines/github/TommasU/scrivener)

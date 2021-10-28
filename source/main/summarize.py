@@ -11,17 +11,18 @@ from sumy.parsers.plaintext import PlaintextParser
 from sumy.nlp.tokenizers import Tokenizer
 from sumy.summarizers.lsa import LsaSummarizer
 
+
 class Summary:
     """
     A class used to generate summary text from the transcribed text provided.
-    
+
     ...
 
     Attributes
     ----------
     transcribed_text : str
         text extracted from video
-        
+
     Methods
     -------
     summarize_text:
@@ -38,14 +39,16 @@ class Summary:
         self.transcribed_text = transcribed_text
 
     def summarize_text(self):
-        """ 
+        """
         Generate summary for Youtube videos with Closed Captions
         """
 
         # initializing empty list
         summary_text = []
         # initialize a text parser taking in transcribed text, and setting language to english
-        parser = PlaintextParser.from_string(self.transcribed_text, Tokenizer("english"))
+        parser = PlaintextParser.from_string(
+            self.transcribed_text, Tokenizer("english")
+        )
         # initialize the summarizer object - you can use different summarization algorithms here
         # such has LexRank and Luhn
         summarizer = LsaSummarizer()
