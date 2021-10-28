@@ -5,10 +5,10 @@
 # SCRIVENER 
 
 ![Python](https://img.shields.io/badge/python-3670A0?style=flat&logo=python&logoColor=ffdd54)
-[![GitHub issues](https://img.shields.io/github/issues/anshulp2912/scrivener)](https://github.com/anshulp2912/scrivener/issues)
-[![GitHub forks](https://img.shields.io/github/forks/anshulp2912/scrivener)](https://github.com/anshulp2912/scrivener/network)
-[![DOI](https://zenodo.org/badge/409326011.svg)](https://zenodo.org/badge/latestdoi/409326011)
-[![GitHub license](https://img.shields.io/github/license/anshulp2912/scrivener)](https://github.com/anshulp2912/scrivener/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/TommasU/scrivener)](https://github.com/TommasU/scrivener/issues)
+[![GitHub forks](https://img.shields.io/github/forks/TommasU/scrivener)](https://github.com/TommasU/scrivener/network)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5601143.svg)](https://doi.org/10.5281/zenodo.5601143)
+[![GitHub license](https://img.shields.io/github/license/TommasU/scrivener)](https://github.com/TommasU/scrivener/blob/main/LICENSE)
 ![Lines of code](https://img.shields.io/badge/Lines%20of%20Code-1K-blue)
 ![Coverage](https://img.shields.io/badge/Coverage-97%25-red)
 ![Contributors](https://img.shields.io/badge/Contributors-5-yellowgreen)
@@ -43,7 +43,7 @@ The project is deployed on both Streamlit cloud and Heroku.
 1. Clone the Git repository.
 2. Run `pip install -r requirements.txt`
 3. Open Command Prompt and change the directory to the location of cloned repository.
-4. Run the command `streamlit run user_interface.py`
+4. Run the command `python -m streamlit run ./source/scrivener_user_interface.py`
 5. Next, open your browser and type in `localhost:8501` in the search bar to open the webUI of the application.
 6. The UI typically looks as shown below and here you have a choice between URL, file or normal text input.
 
