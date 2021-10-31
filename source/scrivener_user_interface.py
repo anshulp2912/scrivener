@@ -67,19 +67,19 @@ if not os.path.exists('source/punct_model_full.pcl'):
     # slug/payload limit. Therefore, using this alternative to get it from GDrive during runtime.
     if not os.path.exists('source/punct_model_part1.pcl'):
         print("Downloading punct_model_part1.pcl file for ML model...")
-        url1 = 'https://docs.google.com/uc?export=download&id=1W0zyyDrU1JCdMRrbIsaQWCj9HMhcvZXu'
+        url1 = 'https://github.com/SN-18/scrivener/raw/developer/source/punct_model_part1.pcl'
         filename = wget.download(url1, out='source/punct_model_part1.pcl')
         print("\nDownloaded file: " + filename)
 
     if not os.path.exists('source/punct_model_part2.pcl'):
         print("Downloading punct_model_part2.pcl file for ML model...")
-        url2 = 'https://docs.google.com/uc?export=download&id=1BU4XvFqdmabAGmWzVqTxxgDGF9l29WqV'
+        url2 = 'https://github.com/SN-18/scrivener/raw/developer/source/punct_model_part2.pcl'
         filename = wget.download(url2, out='source/punct_model_part2.pcl')
         print("\nDownloaded file: " + filename)
 
     if not os.path.exists('source/punct_model_part3.pcl'):
         print("Downloading punct_model_part3.pcl file for ML model...")
-        url3 = 'https://docs.google.com/uc?export=download&id=1Rl3u57wNF0X2KvkJNUUQMpJW9uJd-_IM'
+        url3 = 'https://github.com/SN-18/scrivener/raw/developer/source/punct_model_part3.pcl'
         filename = wget.download(url3, out='source/punct_model_part3.pcl')
         print("\nDownloaded file: " + filename)
 
