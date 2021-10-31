@@ -1,6 +1,8 @@
-import sys
-import os.path
-sys.path.remove('/app/.heroku/python/bin/punctuator.py')
+import os
+try:
+    os.remove('.heroku/python/bin/punctuator.py')
+except:
+    print("punctuator.py not found in: " + os.getcwd())
 from punctuator import Punctuator
 
 
