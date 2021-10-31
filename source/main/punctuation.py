@@ -1,5 +1,7 @@
-from punctuator import Punctuator
+import sys
 import os.path
+sys.path.remove('/app/.heroku/python/bin/punctuator.py')
+from punctuator import Punctuator
 
 
 class Punctuation:
