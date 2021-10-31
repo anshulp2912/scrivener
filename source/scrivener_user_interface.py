@@ -65,15 +65,23 @@ if not os.path.exists('source/punct_model_full.pcl'):
 
     # Storing these models in github causes an issue with the Heroku deployment and exceeds 500 MB (it is 618 MB)
     # slug/payload limit. Therefore, using this alternative to get it from GDrive during runtime.
-    url1 = 'https://docs.google.com/uc?export=download&id=1W0zyyDrU1JCdMRrbIsaQWCj9HMhcvZXu'
-    url2 = 'https://docs.google.com/uc?export=download&id=1BU4XvFqdmabAGmWzVqTxxgDGF9l29WqV'
-    url3 = 'https://docs.google.com/uc?export=download&id=1Rl3u57wNF0X2KvkJNUUQMpJW9uJd-_IM'
-    filename = wget.download(url1, out='source/punct_model_part1.pcl')
-    print("Downloaded file: " + filename)
-    filename = wget.download(url2, out='source/punct_model_part2.pcl')
-    print("Downloaded file: " + filename)
-    filename = wget.download(url3, out='source/punct_model_part3.pcl')
-    print("Downloaded file: " + filename)
+    if not os.path.exists('source/punct_model_part1.pcl'):
+        print("Downloading punct_model_part1.pcl file for ML model...")
+        url1 = 'https://docs.google.com/uc?export=download&id=1W0zyyDrU1JCdMRrbIsaQWCj9HMhcvZXu'
+        filename = wget.download(url1, out='source/punct_model_part1.pcl')
+        print("\nDownloaded file: " + filename)
+
+    if not os.path.exists('source/punct_model_part2.pcl'):
+        print("Downloading punct_model_part2.pcl file for ML model...")
+        url2 = 'https://docs.google.com/uc?export=download&id=1BU4XvFqdmabAGmWzVqTxxgDGF9l29WqV'
+        filename = wget.download(url2, out='source/punct_model_part2.pcl')
+        print("\nDownloaded file: " + filename)
+
+    if not os.path.exists('source/punct_model_part3.pcl'):
+        print("Downloading punct_model_part3.pcl file for ML model...")
+        url3 = 'https://docs.google.com/uc?export=download&id=1Rl3u57wNF0X2KvkJNUUQMpJW9uJd-_IM'
+        filename = wget.download(url3, out='source/punct_model_part3.pcl')
+        print("\nDownloaded file: " + filename)
 
     first_file = os.path.abspath('source/punct_model_part1.pcl')
     second_file = os.path.abspath('source/punct_model_part2.pcl')
