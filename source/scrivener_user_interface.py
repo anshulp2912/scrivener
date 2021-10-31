@@ -64,7 +64,7 @@ if not os.path.exists('source/punct_model_full.pcl'):
     print("Creating punct_model_full.pcl file for ML model...")
 
     # Storing these models in github causes an issue with the Heroku deployment and exceeds 500 MB (it is 618 MB)
-    # slug/payload limit. Therefore, using this alternative to get it from GDrive during runtime.
+    # slug/payload limit. Therefore, using this alternative to get it from Github during runtime.
     if not os.path.exists('source/punct_model_part1.pcl'):
         print("Downloading punct_model_part1.pcl file for ML model...")
         url1 = 'https://github.com/SN-18/scrivener/raw/developer/source/punct_model_part1.pcl'
