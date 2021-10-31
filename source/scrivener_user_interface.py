@@ -63,6 +63,8 @@ st.markdown(footer,unsafe_allow_html=True)
 if not os.path.exists('source/punct_model_full.pcl'):
     print("Creating punct_model_full.pcl file for ML model...")
 
+    # Storing these models in github causes an issue with the Heroku deployment and exceeds 500 MB (it is 618 MB)
+    # slug/payload limit. Therefore, using this alternative to get it from GDrive during runtime.
     url1 = 'https://docs.google.com/uc?export=download&id=1W0zyyDrU1JCdMRrbIsaQWCj9HMhcvZXu'
     url2 = 'https://docs.google.com/uc?export=download&id=1BU4XvFqdmabAGmWzVqTxxgDGF9l29WqV'
     url3 = 'https://docs.google.com/uc?export=download&id=1Rl3u57wNF0X2KvkJNUUQMpJW9uJd-_IM'

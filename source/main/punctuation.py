@@ -1,5 +1,7 @@
 import os
 try:
+    # hack: Unfortunately Heroku uses below file and it conflicts with the Punctuator package
+    # as suggested here: https://github.com/chrisspen/punctuator2/issues/3 removing the file
     os.remove('.heroku/python/bin/punctuator.py')
 except:
     print("punctuator.py not found in: " + os.getcwd())
