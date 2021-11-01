@@ -61,11 +61,16 @@ st.markdown(footer,unsafe_allow_html=True)
 # and GitHub does not allow files larger than 100mb to be pushed
 if not os.path.exists('source/punct_model_full.pcl'):
     print("Creating punct_model_full.pcl file for ML model...")
+
+    # Path to model files parts that needs to be combined
     first_file = os.path.abspath('source/punct_model_part1.pcl')
     second_file = os.path.abspath('source/punct_model_part2.pcl')
     third_file = os.path.abspath('source/punct_model_part3.pcl')
+
+    # Path to combined model file
     new_file = os.path.abspath('source/punct_model_full.pcl')
 
+    # Read content of model file parts and write it to the combined model file
     with open(new_file, "wb") as wfd:
         for f in [first_file, second_file, third_file]:
             with open(f, "rb") as fd:
@@ -113,8 +118,7 @@ if input_format=='Youtube Link':
         # Display Summary
         st.header('Summary')
         st.write(summary)
-        
-    
+
     # If user inputs an invalid Youtube link
     elif youtube_link!='':
         st.error('Please enter a valid Youtube Link!')
