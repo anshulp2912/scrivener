@@ -14,7 +14,6 @@ from main.transcribe_yt import TranscribeYtVideo
 import secrets
 from glob import glob
 from monkeylearn import MonkeyLearn
-from monkeylearn import MonkeyLearn
 
 
 import shutil
