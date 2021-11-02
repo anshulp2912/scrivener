@@ -7,3 +7,4 @@ SpeechRecognition==3.8.1
 streamlit==0.89.0
 sumy
 punctuator
+monkeylearn
