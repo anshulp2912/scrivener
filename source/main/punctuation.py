@@ -44,7 +44,7 @@ class Punctuation:
         template = "./source/punct_model_full.pcl"
         # file_path = (cwd / template).resolve()
         # print(cwd, flush=True)
-        punct_model = Punctuator(template)
+        punct_model = Punctuator(os.path.abspath(template))
 
         # Add punctuation to text
         punct_text = punct_model.punctuate(transcription)
