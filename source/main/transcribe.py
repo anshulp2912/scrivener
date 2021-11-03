@@ -42,7 +42,7 @@ class TranscribeVideo:
 
     def transcribe_video(self, ip_path):
         """
-        Generate summary from video without Closed Captions
+        Generate summary on punctuated transcript from video without Closed Captions
         """
         # Read video input
         video = mp.VideoFileClip(ip_path)
@@ -67,11 +67,12 @@ class TranscribeVideo:
             # Perform speech to text and store the text
             transcript_text += recognizer.recognize_google(audio_data)
 
+        # Adding punctuation to transcript
         punctuated_transcription = Punctuation.add_punctuation_transcript(
             transcript_text
         )
 
-        # Call the summarization script
+        # Call the summarization script on the punctuated transcript
         transcript_summary = Summary(punctuated_transcription)
         summary = transcript_summary.summarize_text()
         for lines in summary:
