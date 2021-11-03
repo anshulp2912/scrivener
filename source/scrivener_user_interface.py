@@ -9,6 +9,7 @@ This code is licensed under MIT license (see LICENSE.MD for details)
 import streamlit as st
 import re
 import os
+import wget
 from main.transcribe import TranscribeVideo
 from main.transcribe_yt import TranscribeYtVideo
 import secrets
@@ -61,6 +62,27 @@ st.markdown(footer,unsafe_allow_html=True)
 # and GitHub does not allow files larger than 100mb to be pushed
 if not os.path.exists('source/punct_model_full.pcl'):
     print("Creating punct_model_full.pcl file for ML model...")
+
+    # Storing these models in github causes an issue with the Heroku deployment and exceeds 500 MB (it is 618 MB)
+    # slug/payload limit. Therefore, using this alternative to get it from Github during runtime.
+    if not os.path.exists('source/punct_model_part1.pcl'):
+        print("Downloading punct_model_part1.pcl file for ML model...")
+        url1 = 'https://github.com/SN-18/scrivener/raw/developer/source/punct_model_part1.pcl'
+        filename = wget.download(url1, out='source/punct_model_part1.pcl')
+        print("\nDownloaded file: " + filename)
+
+    if not os.path.exists('source/punct_model_part2.pcl'):
+        print("Downloading punct_model_part2.pcl file for ML model...")
+        url2 = 'https://github.com/SN-18/scrivener/raw/developer/source/punct_model_part2.pcl'
+        filename = wget.download(url2, out='source/punct_model_part2.pcl')
+        print("\nDownloaded file: " + filename)
+
+    if not os.path.exists('source/punct_model_part3.pcl'):
+        print("Downloading punct_model_part3.pcl file for ML model...")
+        url3 = 'https://github.com/SN-18/scrivener/raw/developer/source/punct_model_part3.pcl'
+        filename = wget.download(url3, out='source/punct_model_part3.pcl')
+        print("\nDownloaded file: " + filename)
+
     first_file = os.path.abspath('source/punct_model_part1.pcl')
     second_file = os.path.abspath('source/punct_model_part2.pcl')
     third_file = os.path.abspath('source/punct_model_part3.pcl')
