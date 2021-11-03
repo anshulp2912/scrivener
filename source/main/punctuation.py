@@ -41,10 +41,10 @@ class Punctuation:
         """
         # initialize the punctuator ML model
         # cwd = Path.cwd()
-        template = "./source/punct_model_full.pcl"
+        # template = "./source/punct_model_full.pcl"
         # file_path = (cwd / template).resolve()
         # print(cwd, flush=True)
-        punct_model = Punctuator(os.path.abspath(template))
+        punct_model = Punctuator(os.path.abspath("source/punct_model_full.pcl"))
 
         # Add punctuation to text
         punct_text = punct_model.punctuate(transcription)
