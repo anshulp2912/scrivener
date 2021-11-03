@@ -1,0 +1,307 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.10.0" />
+<title>scrivener_user_interface API documentation</title>
+<meta name="description" content="Copyright (c) 2021 Anshul Patel
+This code is licensed under MIT license (see LICENSE.MD for details) …" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>scrivener_user_interface</code></h1>
+</header>
+<section id="section-intro">
+<p>Copyright (c) 2021 Anshul Patel
+This code is licensed under MIT license (see LICENSE.MD for details)</p>
+<p>@author: Scrivener</p>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">&#34;&#34;&#34;
+Copyright (c) 2021 Anshul Patel
+This code is licensed under MIT license (see LICENSE.MD for details)
+
+@author: Scrivener
+&#34;&#34;&#34;
+
+# Import Libraries
+import streamlit as st
+import re
+import os
+import wget
+from main.transcribe import TranscribeVideo
+from main.transcribe_yt import TranscribeYtVideo
+import secrets
+from glob import glob
+from monkeylearn import MonkeyLearn
+
+
+import shutil
+
+# Hide Footer in Streamlit
+hide_menu_style = &#34;&#34;&#34;
+        &lt;style&gt;
+        footer {visibility: hidden;}
+        &lt;/style&gt;
+        &#34;&#34;&#34;
+st.markdown(hide_menu_style, unsafe_allow_html=True)
+
+# Add footer to UI
+footer = &#34;&#34;&#34;&lt;style&gt;
+a:link , a:visited{
+color: blue;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:hover,  a:active {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+
+.footer {
+
+left: 0;
+bottom: 0;
+width: 100%;
+background-color: black;
+color: white;
+text-align: center;
+}
+&lt;/style&gt;
+&lt;div class=&#34;footer&#34;&gt;
+&lt;p&gt;Developed with ❤ by &lt;a style=&#39;display: block; text-align: center;&#39; href=&#34;https://github.com/anshulp2912/scrivener&#34; target=&#34;_blank&#34;&gt;Scrivener&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a style=&#39;display: block; text-align: center;&#39; href=&#34;https://github.com/anshulp2912/scrivener/blob/main/LICENSE&#34; target=&#34;_blank&#34;&gt;MIT License Copyright (c) 2021 Anshul Patel&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Contributors: Anshul, Bhavya, Darshan, Pragna, Rohan&lt;/p&gt;
+&lt;/div&gt;
+&#34;&#34;&#34;
+st.markdown(footer, unsafe_allow_html=True)
+
+# Check if ML model files have been combined, if not combine them
+# This needs to be done because the full file is greater than 100mb
+# and GitHub does not allow files larger than 100mb to be pushed
+if not os.path.exists(&#34;source/punct_model_full.pcl&#34;):
+    print(&#34;Creating punct_model_full.pcl file for ML model...&#34;)
+
+    first_file = os.path.abspath(&#34;source/punct_model_part1.pcl&#34;)
+    second_file = os.path.abspath(&#34;source/punct_model_part2.pcl&#34;)
+    third_file = os.path.abspath(&#34;source/punct_model_part3.pcl&#34;)
+    new_file = os.path.abspath(&#34;source/punct_model_full.pcl&#34;)
+
+
+
+    # Path to model files parts that needs to be combined
+    # Storing these models in github causes an issue with the Heroku deployment and exceeds 500 MB (it is 618 MB)
+    # slug/payload limit. Therefore, using this alternative to get it from Github during runtime.
+    if not os.path.exists(&#39;source/punct_model_part1.pcl&#39;):
+        print(&#34;Downloading punct_model_part1.pcl file for ML model...&#34;)
+        url1 = &#39;https://github.com/SN-18/scrivener/raw/developer/source/punct_model_part1.pcl&#39;
+        filename = wget.download(url1, out=&#39;source/punct_model_part1.pcl&#39;)
+        print(&#34;\nDownloaded file: &#34; + filename)
+
+    if not os.path.exists(&#39;source/punct_model_part2.pcl&#39;):
+        print(&#34;Downloading punct_model_part2.pcl file for ML model...&#34;)
+        url2 = &#39;https://github.com/SN-18/scrivener/raw/developer/source/punct_model_part2.pcl&#39;
+        filename = wget.download(url2, out=&#39;source/punct_model_part2.pcl&#39;)
+        print(&#34;\nDownloaded file: &#34; + filename)
+
+    if not os.path.exists(&#39;source/punct_model_part3.pcl&#39;):
+        print(&#34;Downloading punct_model_part3.pcl file for ML model...&#34;)
+        url3 = &#39;https://github.com/SN-18/scrivener/raw/developer/source/punct_model_part3.pcl&#39;
+        filename = wget.download(url3, out=&#39;source/punct_model_part3.pcl&#39;)
+        print(&#34;\nDownloaded file: &#34; + filename)
+
+
+    first_file = os.path.abspath(&#39;source/punct_model_part1.pcl&#39;)
+    second_file = os.path.abspath(&#39;source/punct_model_part2.pcl&#39;)
+    third_file = os.path.abspath(&#39;source/punct_model_part3.pcl&#39;)
+
+    # Path to combined model file
+    new_file = os.path.abspath(&#39;source/punct_model_full.pcl&#39;)
+
+
+    # Read content of model file parts and write it to the combined model file
+    with open(new_file, &#34;wb&#34;) as wfd:
+        for f in [first_file, second_file, third_file]:
+            with open(f, &#34;rb&#34;) as fd:
+                shutil.copyfileobj(fd, wfd, 1024 * 1024 * 10)
+
+
+# Download the uploaded video file
+def save_file(file):
+    with open(os.path.join(os.getcwd(), file.name), &#34;wb&#34;) as f:
+        f.write(file.getbuffer())
+    return
+
+
+# Display Image
+st.image(&#34;media/logo/logo.gif&#34;)
+
+# Display Radio options
+input_format = st.radio(&#34;Choose your input format&#34;, [&#34;Youtube Link&#34;, &#34;Upload a Video&#34;])
+
+# If user provides a Youtube Link
+if input_format == &#34;Youtube Link&#34;:
+    # Text input box
+    youtube_link = st.text_input(&#34;Enter Youtube Link&#34;)
+    # Check if its a valid youtube link
+    if re.findall(&#34;(www\.youtube\.com\/watch\?v=)&#34;, youtube_link):
+        st.video(youtube_link)
+        # Make a progress bar
+        progress_bar = st.progress(0)
+        # Decorative material
+        progress_lines = secrets.choice(
+            [
+                &#34;Hired Shakespeare to summarize your video&#34;,
+                &#34;Taking advice from Charles Dickens to help you&#34;,
+                &#34;Shakespeare is completing the assignment&#34;,
+                &#34;Do not worry, Mark Twain is on it&#34;,
+                &#34;Robert Frost is taking the right road to summarize your video&#34;,
+            ]
+        )
+        progress_bar.progress(10)
+
+        # Wait till we run the summarization
+        with st.spinner(progress_lines + &#34; . . .&#34;):
+            progress_bar.progress(25)
+            # Call TranscribeYtVideo class
+            transcribe_video = TranscribeYtVideo(youtube_link)
+            progress_bar.progress(40)
+            # Get summary
+            summary = transcribe_video.transcribe_yt_video()
+            progress_bar.progress(80)
+        # Complete progress bar to 100
+        progress_bar.progress(100)
+        # Display Summary
+        st.header(&#34;Summary&#34;)
+        st.write(summary)
+
+        data = &#34; &#34;.join(summary.splitlines()[-10:])
+        st.header(&#34;Sentiment Analysis&#34;)  # sentiment analysis using monkey learn API
+        ml = MonkeyLearn(&#34;4f627e517819c240ab01baa82f6976153f0817d1&#34;)
+        model_id = &#34;cl_pi3C7JiL&#34;
+        result = ml.classifiers.classify(model_id, [data])
+        for entry in result.body:
+            for classification in entry[&#34;classifications&#34;]:
+                tag_name = classification.get(&#34;tag_name&#34;)
+                if tag_name is not None:
+                    st.write(tag_name)
+
+
+    # If user inputs an invalid Youtube link
+    elif youtube_link != &#34;&#34;:
+        st.error(&#34;Please enter a valid Youtube Link!&#34;)
+
+# If user uploads a local video
+elif input_format == &#34;Upload a Video&#34;:
+    # Browse button for uploading .mp4 files
+    file = st.file_uploader(&#34;Upload a video&#34;, type=[&#34;mp4&#34;], accept_multiple_files=False)
+    if file is not None:
+        st.video(file)
+        # Make a progress bar
+        progress_bar = st.progress(0)
+        progress_bar.progress(10)
+        # Decorative material
+        progress_lines = secrets.choice(
+            [
+                &#34;Hired Shakespeare to summarize your video&#34;,
+                &#34;Taking advice from Charles Dickens to help you&#34;,
+                &#34;Shakespeare is completing the assignment&#34;,
+                &#34;Do not worry, Mark Twain is on it&#34;,
+                &#34;Robert Frost is taking the right road to summarize your video&#34;,
+            ]
+        )
+        # Wait till we run the summarization
+        with st.spinner(progress_lines + &#34; . . .&#34;):
+            progress_bar.progress(25)
+            # Download the uploaded video file
+            save_file(file)
+            progress_bar.progress(40)
+            # Call TranscribeVideo class
+            transcribe_video = TranscribeVideo()
+            progress_bar.progress(60)
+            # Get summary
+            summary = transcribe_video.transcribe_video(
+                os.path.join(os.getcwd(), file.name)
+            )
+        # Complete progress bar to 100
+        progress_bar.progress(100)
+        # Display Summary
+        st.header(&#34;Summary&#34;)
+        st.write(summary)
+        data = &#34; &#34;.join(summary.splitlines()[-10:])
+        st.header(&#34;Sentiment Analysis&#34;)  # sentiment analysis using monkey learn API
+        ml = MonkeyLearn(&#34;4f627e517819c240ab01baa82f6976153f0817d1&#34;)
+        model_id = &#34;cl_pi3C7JiL&#34;
+        result = ml.classifiers.classify(model_id, data)
+        for entry in result.body:
+            for classification in entry[&#34;classifications&#34;]:
+                tag_name = classification.get(&#34;tag_name&#34;)
+                if tag_name is not None:
+                    st.write(tag_name)
+
+    else:
+        for name in glob(&#34;*.mp4&#34;):
+            os.remove(name)</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-functions">Functions</h2>
+<dl>
+<dt id="scrivener_user_interface.save_file"><code class="name flex">
+<span>def <span class="ident">save_file</span></span>(<span>file)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def save_file(file):
+    with open(os.path.join(os.getcwd(), file.name), &#34;wb&#34;) as f:
+        f.write(file.getbuffer())
+    return</code></pre>
+</details>
+</dd>
+</dl>
+</section>
+<section>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3><a href="#header-functions">Functions</a></h3>
+<ul class="">
+<li><code><a title="scrivener_user_interface.save_file" href="#scrivener_user_interface.save_file">save_file</a></code></li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc" title="pdoc: Python API documentation generator"><cite>pdoc</cite> 0.10.0</a>.</p>
+</footer>
+</body>
+</html>
