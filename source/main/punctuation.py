@@ -40,11 +40,11 @@ class Punctuation:
         Using the generated transcript, add punctuation
         """
         # initialize the punctuator ML model
-        cwd = Path.cwd()
+        # cwd = Path.cwd()
         template = "./source/punct_model_full.pcl"
-        file_path = (cwd / template).resolve()
-        print(cwd, flush=True)
-        punct_model = Punctuator(file_path)
+        # file_path = (cwd / template).resolve()
+        # print(cwd, flush=True)
+        punct_model = Punctuator(template)
 
         # Add punctuation to text
         punct_text = punct_model.punctuate(transcription)
