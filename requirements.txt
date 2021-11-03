@@ -6,5 +6,7 @@ pytube==11.0.1
 SpeechRecognition==3.8.1
 streamlit==0.89.0
 sumy
-punctuator
 monkeylearn
+punctuator==0.9.6
+wget
+

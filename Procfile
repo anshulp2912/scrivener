@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit run source/scrivener_user_interface.py
+web: sh setup.sh &&  python -c "import nltk; nltk.download('punkt')" && streamlit run source/scrivener_user_interface.py
