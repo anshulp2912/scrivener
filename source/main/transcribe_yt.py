@@ -70,7 +70,7 @@ class TranscribeYtVideo:
 
     def transcribe_yt_video(self):
         """
-        Caller function for methods in the class
+        Calls correct transcribe function after checking youtube video has captions or not
         """
         check_cc = self.check_yt_cc()
         # If captions are not present
@@ -84,7 +84,7 @@ class TranscribeYtVideo:
 
     def transcribe_yt_video_w_cc(self):
         """
-        Generate summary for Youtube videos with Closed Captions
+        Generate summary on punctuated transcript for Youtube videos with Closed Captions
         """
         # Get transcript from youtube video
         transcript_json = YouTubeTranscriptApi.get_transcript(self.yt_id)
@@ -93,11 +93,12 @@ class TranscribeYtVideo:
         for rec in transcript_json:
             transcript_text += " " + rec["text"]
 
+        # Add punctuation to transcript
         punctuated_transcription = Punctuation.add_punctuation_transcript(
             transcript_text
         )
 
-        # Call the summarization script
+        # Call the summarization script on punctuated transcript
         transcript_summary = Summary(punctuated_transcription)
         summary = transcript_summary.summarize_text()
         for lines in summary:
