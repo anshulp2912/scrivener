@@ -10,4 +10,4 @@ monkeylearn
 punctuator==0.9.6
 wget
 pytest==6.2.5
-pdoc
+pdoc3
