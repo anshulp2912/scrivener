@@ -23,7 +23,7 @@ video_two_url = "https://www.youtube.com/watch?v=qBTdukbzc78"
     (video_one_url, 1),
     (video_two_url, 2)
 ])
-def test_list_add(youtube_url, test_index):
+def test_check_yt_cc(youtube_url, test_index):
     transc_obj = TranscribeYtVideo(youtube_url)
     transcript = transc_obj.check_yt_cc()
     if test_index == 1:
@@ -79,3 +79,16 @@ def test_transcribe_yt_video_w_cc(youtube_url, test_index):
             transc_obj.transcribe_yt_video_w_cc()
         except Exception as e:
             assert isinstance(e, TranscriptsDisabled)
+
+@pytest.mark.parametrize('youtube_url, test_index', [
+    (video_one_url, 1),
+    (video_two_url, 2)
+])
+def test_transcribe_yt_video(youtube_url, test_index):
+    transc_obj = TranscribeYtVideo(youtube_url)
+    assert transc_obj.summary == str()
+
+    transc_obj.transcribe_yt_video()
+    N = 10
+    assert transc_obj.summary != str()
+    assert len(transc_obj.summary) > N
