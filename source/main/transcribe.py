@@ -6,14 +6,14 @@ This code is licensed under MIT license (see LICENSE.MD for details)
 """
 
 # Import Libraries
-from main.summarize import Summary
+from source.main.summarize import Summary
 import speech_recognition as sr
 import moviepy.editor as mp
-from helper.split_audio import splitwavaudio
+from source.helper.split_audio import splitwavaudio
 import os
-from helper.cleanup import Cleanup
+from source.helper.cleanup import Cleanup
 
-from main.punctuation import Punctuation
+from source.main.punctuation import Punctuation
 
 
 class TranscribeVideo:

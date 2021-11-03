@@ -6,7 +6,7 @@ try:
 except:
     print("punctuator.py not found in: " + os.getcwd())
 from punctuator import Punctuator
-
+from pathlib import Path
 
 class Punctuation:
     """
@@ -39,6 +39,10 @@ class Punctuation:
         Using the generated transcript, add punctuation
         """
         # initialize the punctuator ML model
+        # cwd = Path.cwd()
+        # template = "./source/punct_model_full.pcl"
+        # file_path = (cwd / template).resolve()
+        # print(cwd, flush=True)
         punct_model = Punctuator(os.path.abspath("source/punct_model_full.pcl"))
 
         # Add punctuation to text
