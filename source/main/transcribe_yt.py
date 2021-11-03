@@ -6,12 +6,12 @@ This code is licensed under MIT license (see LICENSE.MD for details)
 """
 
 # Import Libraries
-from main.summarize import Summary
+from source.main.summarize import Summary
 import pytube
 import os
 from youtube_transcript_api import YouTubeTranscriptApi
-from main.transcribe import TranscribeVideo
-from main.punctuation import Punctuation
+from source.main.transcribe import TranscribeVideo
+from source.main.punctuation import Punctuation
 
 
 class TranscribeYtVideo:
