@@ -10,7 +10,7 @@
  3. BLEU or the Bilingual Evaluation Understudy, is a score used to evaluate text generated for a suite of natural language processing tasks. To understand the summary's quality, we compare it against the original transcript using BLEU score. We can then validate this BLEU score in our testing component. This addresses the issue: [https://github.com/anshulp2912/scrivener/issues/32](https://github.com/anshulp2912/scrivener/issues/32). 
 
 ### Sentiment Analysis
-We have used MonkeyLearn API to perform Sentiment Analysis of the generated summary.
+We have used [MonkeyLearn](https://monkeylearn.com/sentiment-analysis/) API to perform Sentiment Analysis of the generated summary.
 
 ### Testing
 The previous project did not have any test cases. In this version, we have added multiple test cases. We have added Automated Tests i.e Testcases are automatically executed each time a push is made or a pull request is merged. Automatic style checking through Pylint has been enabled on files.
