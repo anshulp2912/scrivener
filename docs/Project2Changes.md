@@ -7,7 +7,7 @@
 ### Better summarization and formatting
  1. We used [sumy](https://pypi.org/project/sumy/) which is a simple library and command line utility for extracting summary from HTML pages or plain texts. This helps us to create better summarizations of the transcripts as compared to previous version.
  2. Use of [punctuator](https://pypi.org/project/punctuator/) helps to punctuate the YouTube transcript since by default, a lot of the closed captioning    has no punctuation. This makes it hard for any summarization technique to figure out where sentences start and end. It uses a bidirectional recurrent neural   network model with attention mechanism for restoring missing inter-word punctuation in unsegmented text.
- 3. BLEU or the Bilingual Evaluation Understudy, is a score used to evaluate text generated for a suite of natural language processing tasks. To understand the summary's quality, we compare it against the original transcript using BLEU score. We can then validate this BLEU score in our testing component. This addresses the issue: [issue](https://github.com/anshulp2912/scrivener/issues/32). 
+ 3. BLEU or the Bilingual Evaluation Understudy, is a score used to evaluate text generated for a suite of natural language processing tasks. To understand the summary's quality, we compare it against the original transcript using BLEU score. We can then validate this BLEU score in our testing component. This addresses the issue: [https://github.com/anshulp2912/scrivener/issues/32](https://github.com/anshulp2912/scrivener/issues/32). 
 
 ### Sentiment Analysis
 We have used MonkeyLearn API to perform Sentiment Analysis of the generated summary.
