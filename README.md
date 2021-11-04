@@ -10,6 +10,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5601143.svg)](https://doi.org/10.5281/zenodo.5601143)
 [![GitHub license](https://img.shields.io/github/license/TommasU/scrivener)](https://github.com/TommasU/scrivener/blob/main/LICENSE)
 ![Lines of code](https://img.shields.io/tokei/lines/github/TommasU/scrivener)
+[![GitHub pull-requests](https://img.shields.io/github/issues-pr/TommasU/scrivener)](https://github.com/TommasU/scrivener/issues/pull/)
 ![Coverage](https://img.shields.io/badge/Coverage-97%25-red)
 ![Contributors](https://img.shields.io/badge/Contributors-5-yellowgreen)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/TommasU/scrivener)
